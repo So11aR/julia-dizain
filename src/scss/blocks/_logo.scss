@@ -1,0 +1,26 @@
+.logo {
+    // font-size: 32px;
+    display: flex;
+    align-items: center;
+
+    img {
+        margin: 0 2em;
+
+        @include mobile {
+            width: 70px;
+            margin: 0 1.125em;
+        }
+    }
+
+    
+
+    &__title {
+        color: var(--link-color);
+        font-size: 1.25em;
+        margin-top: 0.375em;
+
+        @include mobile {
+            font-size: 0.875em;
+        }
+    }
+}
