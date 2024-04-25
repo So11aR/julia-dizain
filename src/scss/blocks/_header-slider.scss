@@ -1,16 +1,16 @@
-.hero-block {
-  position: relative;
-  display: flex;
-  align-items: center;
-  padding-left: 12.063em;
-  background-color: #999;
-  background-image: url('./../../img/hero-bg.jpg');
-	@include mediaBg() {
-		background-image: url('./../../img/hero-bg@2x.jpg');
-	}
-  background-position: center center; /* x y */
-  background-size: cover;
-  background-repeat: no-repeat;
+// .hero-block {
+//   position: relative;
+//   display: flex;
+//   align-items: center;
+//   padding-left: 12.063em;
+//   background-color: #999;
+//   background-image: url('./../../img/hero-bg.jpg');
+// 	@include mediaBg() {
+// 		background-image: url('./../../img/hero-bg@2x.jpg');
+// 	}
+//   background-position: center center; /* x y */
+//   background-size: cover;
+//   background-repeat: no-repeat;
   
-  min-height: calc(100vh - 73px);
-}
+//   min-height: calc(100vh - 73px);
+// }

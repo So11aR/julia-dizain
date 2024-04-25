@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: LTRemark;
+    font-family: var(--second-family);
     column-gap: 9.375em;
   }
 
@@ -23,7 +23,7 @@
   }
 
   &__nav-link {
-    font-family: Montserrat;
+    font-family: var(--font-main);
     font-weight: 400;
     font-size: 1.25em;
     line-height: 125%;
