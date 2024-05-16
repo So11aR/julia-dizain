@@ -32,3 +32,19 @@ pre.code {
 	padding: 1rem;
 	border-radius: 4px;
 }
+
+.btn__ask-me {
+  position: absolute;
+  background-color: #463e38;
+  color: #fff;
+  padding: 18px 40px;
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+}
+
+.btn__ask-me--position {
+	bottom: -38px;
+  left: 0;
+}

@@ -38,6 +38,19 @@
 	}
 }
 
+.container-right-70 {
+	position: relative;
+	background-color: #fff;
+	padding: 0 var(--container-padding);
+	max-width: 70%;
+	margin-left: auto;
+	padding-right: calc((100% - var(--container-width)) / 2 + var(--container-padding));
+
+	@include mobile {
+		max-width: 100%;
+	}
+}
+
 .container-right {
 	padding-left: calc(
 		(100% - var(--container-width)) / 2 + var(--container-padding)

@@ -1,0 +1,119 @@
+.main-info-index {
+  // background-color: #faf5ee;
+  padding: 10px 0;
+}
+
+.info-top-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.938em;
+}
+
+.info-top-heading::after {
+  content: "";
+  display: block;
+  border: 1px solid #463e38;
+  width: 402px;
+}
+
+.about-me-wrapper {
+  max-width: var(--container-width);
+  display: flex;
+  justify-content: flex-end;
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // row-gap: 84px;
+    padding-top: 4.25em;
+    padding-bottom: 3.5em;
+    position: relative;
+
+    width: 800px;
+    // height: 451px;
+    background-color: rgb(230, 212, 230);
+  }
+
+  &__header {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 3.75em;
+    line-height: 122%;
+    color: #463e38;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__header::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    width: 316px;
+    height: 47px;
+    background-color: #faf5ee;
+  }
+}
+.row-info {
+  &__desc {
+    max-width: 560px;
+    font-family: var(--font-main);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    color: #463e38;
+  }
+
+  &__top {
+    margin-bottom: 84px;
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.experience-card-wrapper {
+  width: 560px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 86px;
+  position: relative;
+}
+
+.experience-card {
+  &__title {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 44px;
+    color: #463e38;
+  }
+
+  &__desc {
+    font-family: var(--font-main);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    color: #463e38;
+    height: 75px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.absolute-image {
+  // border: 25px solid greenyellow;
+  width: 500px;
+  height: 551px;
+  background-color: #463e38;
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  left: -43%;
+  top: 58%;
+}
