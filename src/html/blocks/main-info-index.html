@@ -1,6 +1,69 @@
 <main class="main-info-index">
 	
-	@@include('about-me-index.html')
+	<div class="main-info-index__wrapper">
+		@@include('about-me-index.html')
+
+		<div class="white-block"></div>
+		
+		<section class="main-projects">
+			<div class="main-projects__header-wrapper">
+				<h1 class="main-projects__header"><span>Проекты</span></h1>
+			</div>
 	
+			<div class="main-projects__card-wrapper">
+				@@loop('components/projects.html', './data/projects.json')
+			</div>
+			
+		</section>
+	
+		<div class="bg-beige projects-bg-handler">
+			<a href="#" class="btn__view-all">Смотреть все</a>
+		</div>
+	</div>
+
+	<section class="main-working-us">
+		<div class="main-working-us__title-wrapper">
+			<h2 class="main-working-us__title">
+				Работая с нами <br> <span>вы получаете</span>
+			</h2>
+		</div>
+
+		<div class="container">
+			<div class="main-working-us__blocks-holder">
+				<div class="working-left">
+					<img src="../../img/projects/main-working-us-vertical-01.png" alt="">
+					<img src="../../img/projects/main-working-us-vertical-02.png" alt="">
+				</div>
+
+				<div class="working-right">
+					<div class="working-right__item">
+						<h1 class="working-right__item-number">01</h1>
+						<h2 class="working-right__item-text">Многолетний <br> опыт</h2>
+					</div>
+
+					<div class="working-right__item">
+						<h1 class="working-right__item-number">02</h1>
+						<h2 class="working-right__item-text">Внимание <br> к деталям</h2>
+					</div>
+
+					<div class="working-right__item">
+						<h1 class="working-right__item-number">03</h1>
+						<h2 class="working-right__item-text">Авторский <br> и технический надзор</h2>
+					</div>
+
+					<div class="working-right__item">
+						<h1 class="working-right__item-number">04</h1>
+						<h2 class="working-right__item-text">Решение <br> нестандартных ситуаций</h2>
+					</div>
+
+					<div class="working-right__item">
+						<h1 class="working-right__item-number">05</h1>
+						<h2 class="working-right__item-text">Вся необходимая <br> документация</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
 
 </main>

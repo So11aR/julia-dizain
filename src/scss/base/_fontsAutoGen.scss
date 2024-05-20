@@ -6,9 +6,16 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: Inter;
+	font-family: Montserrat;
 	font-display: swap;
-	src: url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
+	src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: MrDeHaviland;
+	font-display: swap;
+	src: url("../fonts/MrDeHaviland-Regular.woff2") format("woff2"), url("../fonts/MrDeHaviland-Regular.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 }
@@ -20,16 +27,9 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: Montserrat;
+	font-family: Inter;
 	font-display: swap;
-	src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
-	font-weight: 400;
-	font-style: normal;
-}
-@font-face {
-	font-family: MrDeHaviland;
-	font-display: swap;
-	src: url("../fonts/MrDeHaviland-Regular.woff2") format("woff2"), url("../fonts/MrDeHaviland-Regular.woff") format("woff");
+	src: url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 }
