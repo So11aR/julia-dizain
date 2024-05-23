@@ -206,10 +206,16 @@
   }
 }
 
-.btn__ask-me {
+
+.experience-card-wrapper__button {
+  display: flex;
   position: absolute;
-	bottom: -38px;
+  bottom: -38px;
   left: 0;
+}
+
+
+.btn__ask-me {
   background-color: #463e38;
   color: #fff;
   padding: 18px 40px;

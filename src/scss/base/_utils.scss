@@ -39,6 +39,18 @@
 	justify-content: center;
 }
 
+.justify-flex-end {
+	justify-content: flex-end;
+}
+
+.justify-flex-start {
+	justify-content: flex-start;
+}
+
+.align-center-items {
+	align-items: center;
+}
+
 .w-fit {
 	width: fit-content !important;
 }
@@ -54,5 +66,8 @@
 .bg-beige {
 	background-color: #faf5ee !important;
 	// background-color: powderblue !important;
-	
+}
+
+.p-0 {
+	padding: 0 !important;
 }

@@ -94,7 +94,7 @@ gulp.task('html:dev', function () {
 
 gulp.task('sass:dev', function () {
 	return gulp
-		.src('./src/scss/*.scss')
+		.src('./src/scss/**/*.scss')
 		.pipe(changed('./build/css/'))
 		.pipe(plumber(plumberNotify('SCSS')))
 		.pipe(sourceMaps.init())
