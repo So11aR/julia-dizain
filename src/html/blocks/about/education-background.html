@@ -1,0 +1,24 @@
+<section class="education-wrapper">
+  <div class="container">
+    <h1 class="education-wrapper__header">
+      <span>Образование и <br> квалификация</span>
+    </h1>
+
+    @@loop('../components/education-info-rows.html', './data/education-info.json')
+
+    <h1 class="education-certificate-title">
+      <span>Сертификаты</span>
+    </h1>
+
+    <div class="certificates-wrapper">
+      <a
+        class="certificate-item"
+        data-fancybox
+        data-src="./../../../img/page-about/cerificates/certificate-01@2x.png"
+        data-caption="GPM"
+      >
+        <img src="./../../../img/page-about/cerificates/certificate-01.png" width="370"  alt="" />
+      </a>
+    </div>
+  </div>
+</section>
