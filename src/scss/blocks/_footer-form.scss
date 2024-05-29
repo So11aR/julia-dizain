@@ -40,7 +40,7 @@
 
 
 .control-label {
-  font-family: var(--font-family);
+  font-family: var(--font-main);
   font-weight: 400;
   font-size: 20px;
   line-height: 125%;
@@ -48,7 +48,7 @@
 }
 
 .input-control::placeholder {
-  font-family: var(--font-family);
+  font-family: var(--font-main);
   font-weight: 400;
   font-size: 20px;
   line-height: 125%;
@@ -353,7 +353,7 @@ textarea.form-control.is-invalid {
 
 /* CSS для кнопки submit */
 button[type="submit"] {
-  margin-top: 50px;
+  // margin-top: 50px;
   display: inline-flex;
   align-items: center;
   justify-content: center;

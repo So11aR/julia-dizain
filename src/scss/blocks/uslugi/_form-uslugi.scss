@@ -1,0 +1,46 @@
+.uslugi-bottom-bg-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.uslugi-form-wrapper {
+  width: 790px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 73px;
+}
+
+.uslugi-form-title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 122%;
+  color: #fff;
+
+  & span {
+    display: flex;
+    column-gap: 51px;
+  }
+}
+
+.form-uslugi {
+  display: flex;
+  align-items: center;
+  column-gap: 68px;
+}
+
+.uslugi-input-control {
+  width: 200px;
+  padding-left: 20px;
+}
+
+.uslugi-input-control::placeholder {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+}

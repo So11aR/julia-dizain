@@ -13,22 +13,22 @@
   }
 
   &::before {
-    content: '';
+    content: "";
     display: block;
     width: 50px;
     height: 50px;
-    border-bottom: 1px solid #463E38;
-    border-left: 1px solid #463E38;
+    border-bottom: 1px solid #463e38;
+    border-left: 1px solid #463e38;
     align-self: flex-end;
   }
 
   &::after {
-    content: '';
+    content: "";
     display: block;
     width: 50px;
     height: 50px;
-    border-top: 1px solid #463E38;
-    border-right: 1px solid #463E38;
+    border-top: 1px solid #463e38;
+    border-right: 1px solid #463e38;
     align-self: flex-start;
   }
 
@@ -47,6 +47,31 @@
     font-size: 16px;
     color: var(--korichnevyy);
   }
+}
+
+.uslugi-main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 76px;
+}
+
+.uslugi-even-row {
+  position: relative;
+
+  &__img {
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.uslugi-text-block-wrapper-right {
+  height: 801px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .uslugi-row {
@@ -89,4 +114,74 @@
   list-style-type: disc;
 }
 
+.bg-test {
+  background-color: plum;
+}
 
+.uslugi-you-can {
+  margin-bottom: 95px;
+}
+
+.you-can-cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 38px;
+  row-gap: 28px;
+}
+
+.you-can-card {
+  position: relative;
+  width: 365px;
+  height: 239px;
+  display: flex;
+  align-items: flex-end;
+  padding: 29px 18px;
+  background: var(--bezhevyy);
+
+  &__title {
+    font-family: var(--font-main);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    color: var(--korichnevyy);
+
+  }
+}
+
+.you-can-absolute-block {
+  position: absolute;
+  top: 21px;
+  right: 19px;
+  border: 1px solid var(--korichnevyy);
+  width: 360px;
+  height: 233px;
+}
+
+.you-can-card-article {
+  width: 365px;
+  height: 239px;
+  display: flex;
+  align-items: flex-end;
+  padding: 29px 18px;
+
+  &__title {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 44px;
+    color: var(--korichnevyy);
+  }
+}
+
+.uslugi-bottom-bg-block {
+  height: 552px;
+  background-color: #999;
+	background-position: center center; /* x y */
+	background-size: cover;
+	background-repeat: no-repeat;
+
+  background-image: url('./../../img/footer-bg/bg-footer-02.png');
+	@include mediaBg() {
+		background-image: url('./../../img/footer-bg/bg-footer-02@2x.png');
+	}
+}
