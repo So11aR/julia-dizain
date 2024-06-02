@@ -1,0 +1,44 @@
+.main-contacts {
+  margin-top: 148px;
+  margin-bottom: 180px;
+}
+
+.organization-info {
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  margin-left: 101px;
+
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+
+.organization-uri-info {
+  display: flex;
+  column-gap: 54px;
+
+  &__wrapper {
+    display: flex;
+    column-gap: 54px;
+  }
+}
+
+.bank-info {
+  width: 460px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+
+  &__inn-bik {
+    display: flex;
+    column-gap: 20px;
+  }
+}

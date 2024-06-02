@@ -64,6 +64,19 @@
 	}
 }
 
+.container-right-55 {
+	position: relative;
+	background-color: #fff;
+	padding: 0 var(--container-padding);
+	max-width: 55%;
+	margin-left: auto;
+	padding-right: calc((100% - var(--container-width)) / 2 + var(--container-padding));
+
+	@include mobile {
+		max-width: 100%;
+	}
+}
+
 .container-right-80 {
 	position: relative;
 	background-color: #fff;

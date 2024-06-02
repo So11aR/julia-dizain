@@ -26,10 +26,6 @@
 	}
 }
 
-
-
-
-
 .footer-content {
 	padding-top: 163px;
 	padding-bottom: 158px;
@@ -40,15 +36,6 @@
     display: flex;
     flex-direction: column;
 		row-gap: 58px;
-	}
-
-	&__link {
-		display: block;
-		font-family: var(--font-main);
-		font-weight: 400;
-		font-size: 20px;
-		line-height: 125%;
-		color: #fff;
 	}
 
 	&__logo {
@@ -72,12 +59,6 @@
 		line-height: 125%;
 		color: #fff;
 		margin-top: 10px;
-	}
-
-	&__social-icons {
-		display: flex;	
-		align-items: center;
-		column-gap: 16px;
 	}
 }
 

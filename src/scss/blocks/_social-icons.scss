@@ -1,0 +1,14 @@
+.social-icons {
+  display: flex;	
+  align-items: center;
+  column-gap: 16px;
+
+  &__link {
+    display: block;
+		font-family: var(--font-main);
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 125%;
+		color: var(--korichnevyy);
+  }
+}
