@@ -1,0 +1,366 @@
+.project-structure-section {
+
+
+  &__heading-block {
+    max-width: 1215px;
+    display: flex;
+
+    @include mobile {
+      position: relative;
+  }
+  }
+}
+
+.project-structure-heading-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  row-gap: 21px; 
+  background-color: #fff;
+
+  @include tablet {
+    background-color: var(--bezhevyy);
+    padding-bottom: 48px;
+    padding-left: 72px;
+  }
+
+  @include mobile {
+    position: absolute;
+    left: -16px;
+    top: -36px;
+    padding: 34px 44px 34px 20px;
+    row-gap: 5px;
+  }
+}
+
+.project-structure-heading-right {
+  flex: 1;
+  padding-left: 83px;
+  padding-top: 82px;
+  padding-bottom: 48px;
+  background-color: var(--bezhevyy);
+
+  @include tablet {
+    background-color: #fff;
+  }
+
+  @include mobile {
+      padding-top: 122px;
+      padding-left: 0;
+      padding-right: 15px;
+  } 
+
+  & p {
+    font-family: var(--font-main);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--korichnevyy);
+
+    @include mobile {
+      font-size: 12px;
+      text-wrap: wrap;
+    }
+  }
+}
+
+.project-structure-heading-h1 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 44px;
+  color: var(--korichnevyy);
+  position: relative;
+  z-index: 1;
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    width: 313px;
+    height: 27px;
+    background-color: var(--bezhevyy);
+
+    @include tablet {
+        display: none;
+    }
+  }
+  @include mobile {
+    font-size: 30px;
+    line-height: 113%;
+  }
+}
+.project-structure-heading-p {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--korichnevyy);
+
+  @include mobile {
+    font-size: 12px;
+  }
+}
+
+.work-steps-project-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
+
+  &__left-col {
+    width: 765px;
+    // background-color: plum;
+    display: flex;
+    flex-direction: column;
+    row-gap: 29px;
+
+    & .check-list-row:first-child{
+      padding-right: 30px;
+      // background-color: tomato;
+
+      @include tablet {
+          width: 361px;
+      }
+
+      @include mobile {
+        padding-top: 270px !important;
+      }
+    }
+
+    & .check-list-row:nth-child(2){
+      // justify-content: flex-end;
+      // background-color: thistle;
+      padding-left: 60px;
+
+      @include mobile {
+        padding-top: 276px !important;
+      }
+    }
+
+    & .check-list-row:first-child .work-steps-check-list{
+      padding-top: 18px;
+
+      @include tablet {
+        padding-bottom: 335px;
+        padding-top: 0;
+      }
+
+      @include mobile {
+          padding-bottom: 0;
+      }
+    }
+
+    & .check-list-row:last-child .work-steps-check-list{
+      padding-top: 33px;
+    }
+
+    @include tablet {
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-evenly;
+      // padding-left: 82px;
+      position: relative;
+    }
+
+    @include mobile {
+      flex-direction: column;
+    }
+  }
+
+  &__right-col {
+    width: 362px;
+    // background-color: mediumpurple;
+    display: flex;
+    flex-direction: column;
+    row-gap: 21px;
+
+    & .check-list-row {
+      display: flex;
+      flex-direction: column;
+      row-gap: 21px;
+
+      @include mobile {
+        padding-top: 276px !important;
+      }
+      // justify-content: space-between;
+    }
+
+    @include tablet {
+      &::after {
+        content: '';
+        display: block;
+        width: 430px;
+
+        @include mobile {
+          display: none;
+        }
+      }
+
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-evenly;
+      position: relative;
+    }
+  }
+
+  @include tablet {
+    flex-direction: column;
+    row-gap: 46px;
+  }
+}
+
+.check-list-row {
+  display: flex;
+  justify-content: space-between;
+
+  @include tablet {
+    flex-direction: column;
+  }
+
+  @include mobile {
+    width: 320px !important;
+    padding: 0 !important;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  @include mobile-xs {
+    max-width: 100%;
+  }
+}
+
+.check-list-image {
+  @include tablet {
+    display: none;
+  }
+
+  &--absolute-1 {
+    display: none;
+
+    @include tablet {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: -16px;
+    }
+
+    @include mobile {
+      display: none;
+    }
+  }
+
+  &--absolute-mobile {
+    display: none;
+
+    @include tablet {
+      display: none;
+    }
+
+    @include mobile {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  &--absolute-2 {
+    display: none;
+
+    @include tablet {
+      display: block;
+      position: absolute;
+      top: 22px;
+      right: -16px;
+    }
+
+    @include mobile {
+      display: none;
+    }
+  }
+
+  &--absolute-3 {
+    display: none;
+
+    @include tablet {
+      display: block;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: -16px;
+    }
+
+    @include mobile {
+      display: none;
+    }
+  }
+}
+
+.check-list-notice {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 16px;
+
+  &__text {
+    font-family: var(--font-main);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--korichnevyy);
+    max-width: 650px;
+    text-wrap: wrap;
+
+    @include tablet {
+      max-width: 100%;
+    }
+  }
+
+  &--tablet {
+    display: none;
+    @include tablet {
+      display: block;
+    }
+  }
+
+  @include tablet {
+    display: none;
+  }
+}
+
+
+
+.work-steps-check-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 28px;
+
+  &__item {
+    position: relative;
+    z-index: 1;
+  }
+
+  &__item::before {
+    content: '';
+    display: block;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    z-index: -1;
+    left: -4px;
+    top: 0;
+    background: var(--bezhevyy);
+  }
+
+  &__text {
+    font-family: var(--font-main);
+    color: var(--korichnevyy);
+    font-weight: 400;
+    font-size: 16px;
+
+    & span {
+      color: var(--numbers);
+      font-family: var(--second-family);
+    }
+  }
+}
