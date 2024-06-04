@@ -6,20 +6,6 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: Inter;
-	font-display: swap;
-	src: url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
-	font-weight: 400;
-	font-style: normal;
-}
-@font-face {
-	font-family: LTRemark;
-	font-display: swap;
-	src: url("../fonts/LTRemark-Bold.woff2") format("woff2"), url("../fonts/LTRemark-Bold.woff") format("woff");
-	font-weight: 700;
-	font-style: normal;
-}
-@font-face {
 	font-family: Montserrat;
 	font-display: swap;
 	src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
@@ -31,5 +17,19 @@
 	font-display: swap;
 	src: url("../fonts/MrDeHaviland-Regular.woff2") format("woff2"), url("../fonts/MrDeHaviland-Regular.woff") format("woff");
 	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: Inter;
+	font-display: swap;
+	src: url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: LTRemark;
+	font-display: swap;
+	src: url("../fonts/LTRemark-Bold.woff2") format("woff2"), url("../fonts/LTRemark-Bold.woff") format("woff");
+	font-weight: 700;
 	font-style: normal;
 }
