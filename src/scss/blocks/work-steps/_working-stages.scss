@@ -43,7 +43,7 @@
 .working-stages-wrapper {
   position: relative;
   // height: 870px;
-  background-color: royalblue;
+  // background-color: royalblue;
   display: flex;
   justify-content: flex-end;
   // gap: 25px;
@@ -61,7 +61,7 @@
   }
 
   &__block {
-    background-color: rosybrown;
+    // background-color: rosybrown;
     display: flex;
     flex-direction: column;
 
@@ -167,6 +167,113 @@
 
       @include mobile {
         width: 100%;
+      }
+    }
+  }
+}
+
+.work-steps-footer-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 755px;
+  // background-color: plum;
+  padding: 110px 0;
+  height: inherit;
+  margin: 0 auto;
+  row-gap: 76px;
+
+  @include mobile {
+    max-width: 320px;
+  }
+
+  & img {
+    width: 454px;
+
+    @include mobile {
+      width: 150px;
+    }
+  }
+
+  &__top-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__bottom-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    & p {
+      font-family: var(--font-main);
+      font-weight: 400;
+      font-size: 16px;
+      color: #fff;
+      max-width: 454px;
+      text-wrap: wrap;
+
+      @include mobile {
+        font-size: 14px;
+        line-height: 122%;
+      }
+    }
+
+    & > .btn__ask-me {
+      background-color: #fff;
+      font-family: var(--font-main);
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 125%;
+      color: var(--korichnevyy);
+
+      @include mobile {
+        font-size: 14px;
+        line-height: 122%;
+        bottom: -32px;
+        z-index: 1;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+      }
+    }
+  }
+
+  &__h1 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 122%;
+    color: #fff;
+
+    @include tablet {
+      font-size: 44px;
+    }
+
+    @include mobile {
+      font-size: 30px;
+      line-height: 113%;
+    }
+  }
+
+  &__arrow-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & span {
+      font-family: var(--second-family);
+      font-weight: 400;
+      font-size: 60px;
+      line-height: 122%;
+      color: #fff;
+
+      @include tablet {
+        font-size: 44px;
+      }
+
+      @include mobile {
+        font-size: 30px;
+        line-height: 113%;
       }
     }
   }

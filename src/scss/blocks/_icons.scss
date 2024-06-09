@@ -21,26 +21,56 @@
 
 .icon--tg {
 	fill: #fff;
+
+	@include tablet {
+		width: 37px;
+		height: 37px;
+	}
 }
 
 .icon--vk {
 	fill: #fff;
+
+	@include tablet {
+		width: 37px;
+		height: 37px;
+	}
 }
 
 .icon--inst {
 	fill: #fff;
+
+	@include tablet {
+		width: 37px;
+		height: 37px;
+	}
 }
 
 .icon--wt {
 	fill: #fff;
+
+	@include tablet {
+		width: 37px;
+		height: 37px;
+	}
 }
 
 .icon--pinterest {
 	fill: #fff;
+
+	@include tablet {
+		width: 37px;
+		height: 37px;
+	}
 }
 
 .icon--youtube {
 	fill: #262626;
+
+	@include tablet {
+		width: 37px;
+		height: 37px;
+	}
 }
 
 .icon--right-arrow {

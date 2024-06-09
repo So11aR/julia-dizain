@@ -31,11 +31,106 @@
 	padding-bottom: 158px;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
+	row-gap: 75px;
+
+	@include tablet {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+
+	@include mobile {
+		column-gap: 68px;
+		row-gap: 28px;
+		padding-top: 60px;
+		padding-bottom: 40px;
+		position: relative;
+	}
+
+	&__col:last-child {
+		@include mobile {
+			width: 100%;
+		}
+	}
+
+	&__col:nth-child(3) {
+		@include tablet {
+			order: 1;
+			width: 100%;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
+		@include mobile {
+			order: 0;
+			flex-direction: column;
+		}
+	}
+
+	&__col:nth-child(3) > &__link:nth-child(2) {
+		@include tablet {
+			display: none;
+		}
+
+		@include mobile {
+			display: block;
+		}
+	}
+
+	&__col:nth-child(3) > &__link:nth-child(1) {
+		display: flex;
+		flex-direction: column;
+		row-gap: 8px;
+	}
+
+	&__col:nth-child(3) > &__link:nth-child(2) {
+		position: relative;
+		transform: translateY(-32px);
+
+		@include mobile {
+			transform: translate(0);
+		}
+	}
+
+	&__col:nth-child(3) > &__logo:nth-child(3) {
+		position: relative;
+		transform: translateY(-32px);
+
+		@include tablet {
+			transform: translate(0);
+			order: -1;
+		}
+
+		@include mobile {
+			display: none;
+		}
+	}
 
 	&__col {
     display: flex;
     flex-direction: column;
 		row-gap: 58px;
+
+		@include mobile {
+			row-gap: 28px;
+		}
+	}
+
+	&__link {
+		font-family: var(--font-main);
+		font-weight: 400;
+		font-size: 20px;
+		color: #fff;
+
+		@include tablet {
+			font-size: 18px;
+			line-height: 125%;
+		}
+
+		@include mobile {
+			font-size: 14px;
+			line-height: 122%;
+		}
 	}
 
 	&__logo {
@@ -75,5 +170,21 @@
 	background-image: url('./../../img/footer-bg/bg-footer-01.png');
 	@include mediaBg() {
 		background-image: url('./../../img/footer-bg/bg-footer-01@2x.png');
+	}
+}
+
+.footer-image-2 {
+	background-image: url('../../img/pages-work-steps/footer-bg.png');
+	@include mediaBg() {
+		background-image: url('../../img/pages-work-steps/footer-bg@2x.png');
+	}
+
+	@include tablet {
+		height: 374px;
+	}
+
+	@include mobile {
+		height: 305px;
+		position: relative;
 	}
 }
