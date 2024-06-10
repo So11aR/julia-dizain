@@ -25,6 +25,14 @@
     font-family: var(--second-family);
     font-size: 3.75em;
     line-height: 67px;
+
+    @include tablet {
+      font-size: 60px;
+    }
+
+    @include mobile {
+      font-size: 30px;
+    }
   }
 
   &__subtitle {

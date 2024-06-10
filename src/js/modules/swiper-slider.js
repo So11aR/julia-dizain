@@ -9,11 +9,6 @@ function swiper() {
 		spaceBetween: 12,
 
 		// If we need pagination
-		pagination: {
-			el: '.swiper-pagination',
-			clickable: true,
-			// dynamicBullets: true,
-		},
 
     navigation: {
 			nextEl: ".swiper-button-next",

@@ -70,4 +70,8 @@ input[type="checkbox"] {
 
 .projects-bg-handler {
 	height: 602px;
+
+	@include tablet {
+		height: 100%;
+	}
 }

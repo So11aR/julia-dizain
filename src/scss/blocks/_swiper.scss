@@ -237,7 +237,7 @@ $themeColor: #007aff !default;
 }
 
 :root {
-  --swiper-navigation-size: 44px;
+  --swiper-navigation-size: 28px;
   /*
   --swiper-navigation-top-offset: 50%;
   --swiper-navigation-sides-offset: 10px;
@@ -257,6 +257,9 @@ $themeColor: #007aff !default;
   align-items: center;
   justify-content: center;
   color: #fff;
+  background: var(--korichnevyy);
+  width: 60px;
+  height: 60px;
 }
 .swiper-button-prev.swiper-button-disabled,
 .swiper-button-next.swiper-button-disabled {

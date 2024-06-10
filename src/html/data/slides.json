@@ -1,38 +1,19 @@
 [
 	{
-		"title": "Яркий заголовок",
-		"subtitle": "Слоган или предложение",
-		"description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique dolorum veritatis soluta natus eveniet nisi porro obcaecati cumque iste eius eos tempore minus nihil, assumenda ipsam ullam, quibusdam consectetur totam."
+		"image": "./../img/projects/project-01.png",
+		"text": "Жилой дом, г. Серпухов"
 	},
   {
-		"title": "Яркий заголовок",
-		"subtitle": "Слоган или предложение",
-		"description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique dolorum veritatis soluta natus eveniet nisi porro obcaecati cumque iste eius eos tempore minus nihil, assumenda ipsam ullam, quibusdam consectetur totam."
+		"image": "../../img/projects/project-2.png",
+		"text": "Жилой дом, пос. Ривер Клаб"
 	},
   {
-		"title": "Яркий заголовок",
-		"subtitle": "Слоган или предложение",
-		"description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique dolorum veritatis soluta natus eveniet nisi porro obcaecati cumque iste eius eos tempore minus nihil, assumenda ipsam ullam, quibusdam consectetur totam."
+		"image": "../../img/projects/project-4.png",
+		"text": "Мастерская"
 	},
   {
-		"title": "Яркий заголовок",
-		"subtitle": "Слоган или предложение",
-		"description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique dolorum veritatis soluta natus eveniet nisi porro obcaecati cumque iste eius eos tempore minus nihil, assumenda ipsam ullam, quibusdam consectetur totam."
-	},
-  {
-		"title": "Яркий заголовок",
-		"subtitle": "Слоган или предложение",
-		"description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique dolorum veritatis soluta natus eveniet nisi porro obcaecati cumque iste eius eos tempore minus nihil, assumenda ipsam ullam, quibusdam consectetur totam."
-	},
-  {
-		"title": "Яркий заголовок",
-		"subtitle": "Слоган или предложение",
-		"description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique dolorum veritatis soluta natus eveniet nisi porro obcaecati cumque iste eius eos tempore minus nihil, assumenda ipsam ullam, quibusdam consectetur totam."
-	},
-  {
-		"title": "Яркий заголовок",
-		"subtitle": "Слоган или предложение",
-		"description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique dolorum veritatis soluta natus eveniet nisi porro obcaecati cumque iste eius eos tempore minus nihil, assumenda ipsam ullam, quibusdam consectetur totam."
+		"image": "../../img/projects/project-5.png",
+		"text": "Квартира, ЖК Седьмое небо"
 	}
 ]
   

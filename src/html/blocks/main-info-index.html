@@ -1,21 +1,50 @@
 <main class="main-info-index">
-	
+
 	<div class="main-info-index__wrapper">
 		@@include('about-me-index.html')
 
-		<div class="white-block"></div>
-		
+		<div class="white-block">
+			<p class="white-block-mobile-text">
+				Меня зовут Юлия Солнцева и уже более 20 лет я и моя команда проектируем объекты социального, гражданского и
+				промышленного назначения с «нулевого» цикла, от разработки проектной документации до ввода объекта в
+				эксплуатацию.
+			</p>
+		</div>
+
+		<div class="beige-block">
+			<p class="white-block-mobile-text">
+				Я создаю проекты с учетом нормативной документации в проектировании и строительстве, а также на протяжении
+				многих лет управляю собственной компанией полного цикла.
+			</p>
+		</div>
+
 		<section class="main-projects">
 			<div class="main-projects__header-wrapper">
 				<h1 class="main-projects__header"><span>Проекты</span></h1>
 			</div>
-	
+
 			<div class="main-projects__card-wrapper">
 				@@loop('components/projects.html', './data/projects.json')
+
+				<div class="projects-swiper">
+					<!-- Slider main container -->
+					<div class="swiper">
+						<!-- Additional required wrapper -->
+						<div class="swiper-wrapper">
+							<!-- Slides -->
+							@@loop('card-swiper.html', './data/slides.json')
+						</div>
+					</div>
+
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+
+					<!-- <div class="swiper-pagination"></div> -->
+				</div>
 			</div>
-			
+
 		</section>
-	
+
 		<div class="bg-beige projects-bg-handler">
 			<a href="#" class="btn__view-all">Смотреть все</a>
 		</div>
