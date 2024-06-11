@@ -75,3 +75,28 @@ input[type="checkbox"] {
 		height: 100%;
 	}
 }
+
+.form-title-text-mobile {
+	display: none;
+	@include mobile {
+		display: block;
+		max-width: 308px;
+		// text-wrap: wrap;
+		font-family: var(--second-family);
+		font-weight: 400;
+		font-size: 30px;
+		line-height: 113%;
+		color: var(--bezhevyy);
+	}
+}
+.mobile-input-control {
+	width: 100%;
+  padding-left: 20px;
+}
+
+.mobile-form {
+	display: none;
+	@include mobile {
+		display: block;
+	}
+}

@@ -20,6 +20,13 @@
   <main class="uslugi-main">
     @@include('blocks/uslugi/products.html')
 
+    <div class="uslugi-mobile-wrapper">
+      @@loop('blocks/uslugi/uslugi-cards-mobile.html', './data/uslugi-mobile-cards.json')
+    </div>
+
+
+
+
     <section class="uslugi-you-can">
       <div class="container">
         <div class="you-can-cards-wrapper">
@@ -136,16 +143,21 @@
         <div class="form-error form-error_hide">Исправьте данные и отправьте форму ещё раз.</div>
 
         <!-- Кнопка для отправки формы на сервер -->
-        <div class="form-submit">
+        <div class="form-submit uslugi-form-btn">
           <button type="submit">Заказать звонок</button>
         </div>
 
       </form>
+
       <!-- </div> -->
     </div>
+
+    <h1 class="form-title-text-mobile">
+      Закажите консультацию прямо сейчас
+    </h1>
   </section>
 
-  @@include('blocks/footer-without-bg.html')
+  @@include('./blocks/footer-without-bg.html')
 
   <script src="./js/index.bundle.js"></script>
 
