@@ -2,8 +2,8 @@
 .mobile-nav-btn {
 	--time: 0.1s;
 
-	--width: 24px;
-	--height: 30px;
+	--width: 34px;
+	--height: 34px;
 
 	--line-height: 3px;
 	--spacing: 5px;
@@ -83,7 +83,11 @@
 .mobile-nav-btn {
 	z-index: 999;
 	margin-top: 4px;
-	// display: none;
+	display: none;
+
+	@include tablet {
+		display: block;
+	}
 }
 
 // @media (max-width: 1000px) {

@@ -36,7 +36,51 @@
       font-size: 0.688em;
     }
   }
+}
 
+.mobile-nav__container > .mobile-nav__row:nth-child(1) {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 98px;
+  @include mobile {
+    margin-bottom: 48px;
+  }
+}
 
+.mobile-nav__row {
+  display: flex;
+  justify-content: center;
 
+  @include mobile {
+    justify-content: flex-start;
+  }
+}
+
+.logo-tablet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 0;
+  line-height: 261%;
+
+  &__title {
+    color: var(--link-color);
+    font-weight: 700;
+    font-size: 28px;
+
+    @include mobile {
+      font-size: 0.875em;
+    }
+  }
+
+  &__subtitle {
+    color: var(--link-color);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 125%;
+
+    @include mobile {
+      font-size: 0.688em;
+    }
+  }
 }

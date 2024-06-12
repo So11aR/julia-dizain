@@ -20,6 +20,10 @@
     column-gap: 1.5em;
     justify-content: space-between;
     flex: 1;
+
+    @include tablet {
+      display: none;
+    }
   }
 
   &__nav-link {
