@@ -1,0 +1,57 @@
+.serpuxov-row-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  @include tablet {
+    align-items: center;
+
+    & > .serpuxov-main-row:nth-child(2) {
+      order: -1;
+    }
+  }
+}
+
+.serpuxov-hard-block {
+  @include tablet {
+    display: none !important;
+
+    &--tablet {
+      display: none;
+
+      @include tablet {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+.serpuxov-main-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+
+  @include tablet {
+    column-gap: 13px;
+  }
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.serpuxov-bg-image-handler {
+  width: 100%;
+  background-position: center center; /* x y */
+  background-size: cover;
+  background-repeat: no-repeat;
+}

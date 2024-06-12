@@ -23,9 +23,15 @@
 }
 
 @mixin mobile-uslugi-xs () {
-	@media (max-width: 390px) {
-	@content;
+		@media (max-width: 390px) {
+		@content;
+	}
 }
+
+@mixin mobile-serpuxov-xs () {
+		@media (max-width: 390px) {
+		@content;
+	}
 }
 
 

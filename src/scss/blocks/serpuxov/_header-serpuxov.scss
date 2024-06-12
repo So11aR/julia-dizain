@@ -1,0 +1,40 @@
+.serpuxov-hero-block {
+  display: flex;
+  flex-direction: column;
+  background-color: #999;
+  position: relative;
+  // min-height: calc(100vh - 141.26px);
+  text-align: center;
+
+  &__title {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 122%;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20%;
+    z-index: 4;
+
+    @include tablet {
+      font-size: 44px;
+    }
+
+    @include mobile {
+      font-size: 30px;
+    }
+  }
+
+  &__subtitle {
+    font-family: var(--font-main);
+    font-size: 1.25em;
+    line-height: 1.9;
+  }
+
+}
+
+.serpuxov-swiper {
+  height: 100%;
+}

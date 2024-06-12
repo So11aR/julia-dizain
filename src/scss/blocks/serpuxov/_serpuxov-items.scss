@@ -1,0 +1,278 @@
+.serpuxov-item-1 {
+  height: 892px;
+  @include tablet {
+    width: 769px;
+    height: 586px;
+  }
+  @include mobile {
+    width: 378px;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px;
+    height: 231px;
+  }
+  background-image: url("./../../img/serpuxov/pic-01.png");
+  @include mediaBg() {
+    background-image: url("./../../img/serpuxov/pic-01@2x.png");
+  }
+}
+.serpuxov-item-2 {
+  width: 560px;
+  height: 695px;
+
+  @include tablet {
+    width: 378px;
+    height: 511px;
+  }
+
+  @include mobile {
+    width: 184px;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px;
+    height: 186px;
+  }
+
+  background-image: url("./../../img/serpuxov/pic-02.png");
+  @include mediaBg() {
+    background-image: url("./../../img/serpuxov/pic-02@2x.png");
+  }
+}
+.serpuxov-item-3 {
+  width: 560px;
+  height: 695px;
+
+  @include tablet {
+    width: 378px;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px;
+    height: 186px;
+  }
+  background-image: url("./../../img/serpuxov/pic-03.png");
+  @include mediaBg() {
+    background-image: url("./../../img/serpuxov/pic-03@2x.png");
+  }
+}
+.serpuxov-item-4 {
+  width: 360px;
+  height: 448px;
+
+  @include tablet {
+    width: 378px;
+    height: 512px;
+  }
+
+  @include mobile {
+    width: 184px;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px;
+    height: 186px;
+  }
+
+  background-image: url("./../../img/serpuxov/pic-04.png");
+  @include mediaBg() {
+    background-image: url("./../../img/serpuxov/pic-04@2x.png");
+  }
+}
+.serpuxov-item-5 {
+  width: 360px;
+  height: 448px;
+
+  @include tablet {
+    width: 378px;
+    height: 512px;
+  }
+
+  @include mobile {
+    width: 184px;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px;
+    height: 186px;
+  }
+  background-image: url("./../../img/serpuxov/pic-05.png");
+  @include mediaBg() {
+    background-image: url("./../../img/serpuxov/pic-05@2x.png");
+  }
+}
+.serpuxov-item-6 {
+  width: 360px;
+
+  height: 448px;
+
+  background-image: url("./../../img/serpuxov/pic-06.png");
+  @include mediaBg() {
+    background-image: url("./../../img/serpuxov/pic-06@2x.png");
+  }
+
+  @include tablet {
+    display: none;
+  }
+}
+.serpuxov-item-7 {
+  height: 894px;
+
+  @include tablet {
+    width: 769px;
+    height: 586px;
+  }
+  @include mobile {
+    width: 378px;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px;
+    height: 231px;
+  }
+
+  background-image: url("./../../img/serpuxov/pic-07.png");
+  @include mediaBg() {
+    background-image: url("./../../img/serpuxov/pic-07@2x.png");
+  }
+}
+.serpuxov-item-8 {
+  width: 330px;
+  height: 345px;
+
+  @include tablet {
+    width: 378px;
+    height: 511px;
+  }
+
+  @include mobile {
+    width: 184px;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px;
+    height: 186px;
+  }
+  background-image: url("./../../img/serpuxov/pic-08.png");
+  @include mediaBg() {
+    background-image: url("./../../img/serpuxov/pic-08@2x.png");
+  }
+}
+.serpuxov-item-9 {
+  width: 330px;
+  height: 380px;
+  background-image: url("./../../img/serpuxov/pic-09.png");
+  @include mediaBg() {
+    background-image: url("./../../img/serpuxov/pic-09@2x.png");
+  }
+}
+.serpuxov-item-10 {
+  width: 458px;
+  height: 744px;
+
+  background-image: url("./../../img/serpuxov/pic-10.png");
+  @include mediaBg() {
+    background-image: url("./../../img/serpuxov/pic-10@2x.png");
+  }
+
+  @include tablet {
+    width: 769px;
+    height: 586px;
+    background-image: url("./../../img/serpuxov/pic-10-tablet.png");
+    @include mediaBg() {
+      background-image: url("./../../img/serpuxov/pic-10-tablet@2x.png");
+    }
+  }
+
+  @include mobile {
+    width: 378px;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px;
+    height: 231px;
+  }
+}
+.serpuxov-item-11 {
+  width: 330px;
+  height: 345px;
+  @include tablet {
+    width: 378px;
+    height: 511px;
+  }
+
+  @include mobile {
+    width: 184px;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px;
+    height: 186px;
+  }
+  background-image: url("./../../img/serpuxov/pic-11.png");
+  @include mediaBg() {
+    background-image: url("./../../img/serpuxov/pic-11@2x.png");
+  }
+}
+.serpuxov-item-12 {
+  width: 330px;
+  height: 380px;
+  background-image: url("./../../img/serpuxov/pic-12.png");
+  @include mediaBg() {
+    background-image: url("./../../img/serpuxov/pic-12@2x.png");
+  }
+}
+.serpuxov-item-13 {
+  height: 695px;
+  width: 560px;
+
+  @include tablet {
+    width: 378px;
+    height: 511px;
+  }
+
+  @include mobile {
+    width: 184px;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px;
+    height: 186px;
+  }
+
+  background-image: url("./../../img/serpuxov/pic-13.png");
+  @include mediaBg() {
+    background-image: url("./../../img/serpuxov/pic-13@2x.png");
+  }
+}
+.serpuxov-item-14 {
+  height: 695px;
+  width: 560px;
+
+  @include tablet {
+    width: 378px;
+    height: 511px;
+  }
+
+  @include mobile {
+    width: 184px;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px;
+    height: 186px;
+  }
+
+  background-image: url("./../../img/serpuxov/pic-14.png");
+  @include mediaBg() {
+    background-image: url("./../../img/serpuxov/pic-14@2x.png");
+  }
+}
