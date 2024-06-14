@@ -3,6 +3,13 @@ const config = {
 	entry: {
 		index: './src/js/index.js',
 		serpuxov: './src/js/serpuxov.js',
+		guestHouseRiverclub: './src/js/guest-house-riverclub.js',
+		office: './src/js/office.js',
+		magadan: './src/js/magadan.js'
+		
+
+		
+
 		// contacts: './src/js/contacts.js',
 		// about: './src/js/about.js',
 	},

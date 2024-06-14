@@ -1,0 +1,133 @@
+.magadan-tablet-row {
+  display: none !important;
+
+  @include tablet {
+    display: flex !important;
+  }
+}
+
+.magadan-text {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 44px;
+  color: var(--korichnevyy);
+  max-width: 321px;
+
+  @include tablet {
+    order: -1;
+    max-width: 100%;
+    align-self: flex-start;
+  }
+
+  @include mobile {
+    font-size: 30px;
+  }
+}
+
+.magadan-row-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 132px;
+  margin-bottom: 34px;
+
+  & > .magadan-main-row:nth-child(1) {
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 100px;
+    margin-bottom: 44px;
+  }
+
+  & > .magadan-main-row:nth-child(2) {
+    margin-bottom: 44px;
+  }
+
+  & > .magadan-main-row:nth-child(3) {
+    margin-bottom: 44px;
+  }
+
+  @include tablet {
+    align-items: center;
+
+    & > .magadan-main-row:nth-child(1) {
+      // order: 0;
+      flex-direction: column;
+    }
+
+    // & > .magadan-main-row:nth-child(2) {
+    //   order: 1;
+    // }
+
+    // & > .magadan-main-row:nth-child(3) {
+    //   order: 3;
+    // }
+
+    // & > .magadan-main-row:nth-child(4) {
+    //   order: 2;
+    // }
+
+    // & > .magadan-main-row:nth-child(5) {
+    //   @include tablet {
+    //     display: none;
+    //   }
+    // }
+
+    // & > .magadan-main-row:nth-child(6) {
+    //   order: 6;
+    // }
+
+    // & > .magadan-main-row:nth-child(7) {
+    //   order: 7;
+    // }
+
+    // & > .magadan-main-row:nth-child(8) {
+    //   order: 8;
+    // }
+  }
+}
+
+
+
+.magadan-hard-block {
+  // @include tablet {
+  //   display: none !important;
+  // }
+}
+
+.magadan-hard-block--tablet {
+  display: none !important;
+
+  @include tablet {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.magadan-main-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+
+  @include tablet {
+    column-gap: 13px;
+  }
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.magadan-bg-image-handler {
+  width: 100%;
+  background-position: center center; /* x y */
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,285 @@
+.office-item-1 {
+  width: 560px !important;
+  height: 695px;
+
+  background-image: url("./../../img/office/pic-01.png");
+  @include mediaBg() {
+    background-image: url("./../../img/office/pic-01@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+
+}
+.office-item-2 {
+  width: 560px !important;
+  height: 695px;
+
+  background-image: url("./../../img/office/pic-02.png");
+  @include mediaBg() {
+    background-image: url("./../../img/office/pic-02@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+.office-item-3 {
+  height: 892px;
+
+  background-image: url("./../../img/office/pic-03.png");
+  @include mediaBg() {
+    background-image: url("./../../img/office/pic-03@2x.png");
+  }
+
+  @include tablet {
+    width: 768px;
+    height: 585px;
+  }
+  @include mobile {
+    width: 379px;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+
+}
+.office-item-4 {
+  height: 892px;
+
+  background-image: url("./../../img/office/pic-04.png");
+  @include mediaBg() {
+    background-image: url("./../../img/office/pic-04@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 585px;
+  }
+
+  @include mobile {
+    width: 378px !important;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+
+
+}
+.office-item-5 {
+  width: 473px !important;
+  height: 494px;
+
+  background-image: url("./../../img/office/pic-05.png");
+  @include mediaBg() {
+    background-image: url("./../../img/office/pic-05@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 512px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+
+}
+.office-item-6 {
+  width: 473px !important;
+  height: 494px;
+
+  background-image: url("./../../img/office/pic-06.png");
+  @include mediaBg() {
+    background-image: url("./../../img/office/pic-06@2x.png");
+  }
+
+  @include tablet {
+    display: none;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+.office-item-6-tablet {
+  width: 473px !important;
+  height: 494px;
+
+  background-image: url("./../../img/office/pic-06.png");
+  @include mediaBg() {
+    background-image: url("./../../img/office/pic-06@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+.office-item-7 {
+  width: 656px;
+  height: 1066px;
+
+  background-image: url("./../../img/office/pic-07.png");
+  @include mediaBg() {
+    background-image: url("./../../img/office/pic-07@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 512px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+.office-item-8 {
+  width: 360px !important;
+  height: 430px;
+  background-image: url("./../../img/office/pic-08.png");
+  @include mediaBg() {
+    background-image: url("./../../img/office/pic-08@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 510px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+.office-item-9 {
+  width: 360px !important;
+  height: 430px;
+
+  background-image: url("./../../img/office/pic-09.png");
+  @include mediaBg() {
+    background-image: url("./../../img/office/pic-09@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 512px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+
+.office-item-10 {
+  width: 360px !important;
+  height: 430px;
+
+  background-image: url("./../../img/office/pic-10.png");
+  @include mediaBg() {
+    background-image: url("./../../img/office/pic-10@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 512px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+
+.office-item-11 {
+  height: 892px;
+
+  background-image: url("./../../img/office/pic-11.png");
+  @include mediaBg() {
+    background-image: url("./../../img/office/pic-11@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 585px;
+  }
+
+  @include mobile {
+    width: 379px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}

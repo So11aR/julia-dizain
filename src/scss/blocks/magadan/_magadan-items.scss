@@ -1,0 +1,286 @@
+.magadan-item-1 {
+  width: 544px !important;
+  height: 396px;
+
+  background-image: url("./../../img/magadan/pic-01.png");
+  @include mediaBg() {
+    background-image: url("./../../img/magadan/pic-01@2x.png");
+  }
+
+  @include tablet {
+    width: 772px !important;
+    height: 594px;
+    background-size: contain !important;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 284px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+
+}
+.magadan-item-2 {
+  height: 845px;
+
+  background-image: url("./../../img/magadan/pic-02.png");
+  @include mediaBg() {
+    background-image: url("./../../img/magadan/pic-02@2x.png");
+  }
+
+  @include tablet {
+    width: 772px !important;
+    height: 591px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 284px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+.magadan-item-3 {
+  width: 558px;
+  height: 410px;
+
+  background-image: url("./../../img/magadan/pic-03.png");
+  @include mediaBg() {
+    background-image: url("./../../img/magadan/pic-03@2x.png");
+  }
+
+  @include tablet {
+    width: 772px !important;
+    height: 591px;
+  }
+  @include mobile {
+    width: 370px !important;
+    height: 284px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+
+}
+.magadan-item-4 {
+  width: 558px;
+  height: 410px;
+
+  background-image: url("./../../img/magadan/pic-04.png");
+  @include mediaBg() {
+    background-image: url("./../../img/magadan/pic-04@2x.png");
+  }
+
+  @include tablet {
+    display: none;
+  }
+
+  @include mobile {
+    width: 378px !important;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+
+
+}
+.magadan-item-5 {
+  height: 894px;
+
+  background-image: url("./../../img/magadan/pic-05.png");
+  @include mediaBg() {
+    background-image: url("./../../img/magadan/pic-05@2x.png");
+  }
+
+  @include tablet {
+    width: 772px !important;
+    height: 594px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 284px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+
+}
+.magadan-item-6 {
+  height: 894px;
+
+  background-image: url("./../../img/magadan/pic-06.png");
+  @include mediaBg() {
+    background-image: url("./../../img/magadan/pic-06@2x.png");
+  }
+
+  @include tablet {
+    width: 772px !important;
+    height: 594px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 284px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+
+.magadan-item-7 {
+  width: 473px;
+  height: 494px;
+
+  background-image: url("./../../img/magadan/pic-07.png");
+  @include mediaBg() {
+    background-image: url("./../../img/magadan/pic-07@2x.png");
+  }
+
+  @include tablet {
+    display: none;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 284px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+.magadan-item-8 {
+  width: 473px !important;
+  height: 544px;
+  background-image: url("./../../img/magadan/pic-08.png");
+  @include mediaBg() {
+    background-image: url("./../../img/magadan/pic-08@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 512px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+.magadan-item-9 {
+  width: 656px !important;
+  height: 1066px;
+
+  background-image: url("./../../img/magadan/pic-09.png");
+  @include mediaBg() {
+    background-image: url("./../../img/magadan/pic-09@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 512px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+
+.magadan-item-10 {
+  height: 894px;
+
+  background-image: url("./../../img/magadan/pic-10.png");
+  @include mediaBg() {
+    background-image: url("./../../img/magadan/pic-10@2x.png");
+  }
+
+  @include tablet {
+    width: 772px !important;
+    height: 594px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 284px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+
+.magadan-item-11 {
+  height: 894px;
+
+  background-image: url("./../../img/magadan/pic-11.png");
+  @include mediaBg() {
+    background-image: url("./../../img/magadan/pic-11@2x.png");
+  }
+
+  @include tablet {
+    width: 772px !important;
+    height: 594px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 284px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+
+.magadan-item-12 {
+  height: 894px;
+
+  background-image: url("./../../img/magadan/pic-12.png");
+  @include mediaBg() {
+    background-image: url("./../../img/magadan/pic-12@2x.png");
+  }
+
+  @include tablet {
+    width: 772px !important;
+    height: 594px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 284px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
