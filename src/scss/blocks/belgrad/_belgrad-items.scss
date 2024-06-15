@@ -1,0 +1,163 @@
+.belgrad-guests-item-1 {
+  height: 892px;
+
+  background-image: url("./../../img/belgrad-guests/pic-01.png");
+  @include mediaBg() {
+    background-image: url("./../../img/belgrad-guests/pic-01@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 589px;
+  }
+  @include mobile {
+    width: 380px !important;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+
+}
+.belgrad-guests-item-2 {
+  height: 892px;
+
+  background-image: url("./../../img/belgrad-guests/pic-02.png");
+  @include mediaBg() {
+    background-image: url("./../../img/belgrad-guests/pic-02@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 589px;
+  }
+
+  @include mobile {
+    width: 380px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+.belgrad-guests-item-3 {
+  height: 892px;
+
+  background-image: url("./../../img/belgrad-guests/pic-03.png");
+  @include mediaBg() {
+    background-image: url("./../../img/belgrad-guests/pic-03@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 589px;
+  }
+  @include mobile {
+    width: 380px !important;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+.belgrad-guests-item-4 {
+  width: 560px !important;
+  height: 695px;
+
+  background-image: url("./../../img/belgrad-guests/pic-04.png");
+  @include mediaBg() {
+    background-image: url("./../../img/belgrad-guests/pic-04@2x.png");
+  }
+
+  @include tablet {
+    width: 379px !important;
+    height: 514px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+
+
+}
+.belgrad-guests-item-5 {
+  width: 560px !important;
+  height: 695px;
+
+  background-image: url("./../../img/belgrad-guests/pic-05.png");
+  @include mediaBg() {
+    background-image: url("./../../img/belgrad-guests/pic-05@2x.png");
+  }
+
+  @include tablet {
+    width: 379px !important;
+    height: 514px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+
+.belgrad-guests-item-6 {
+  height: 892px;
+
+  background-image: url("./../../img/belgrad-guests/pic-06.png");
+  @include mediaBg() {
+    background-image: url("./../../img/belgrad-guests/pic-06@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 589px;
+  }
+
+  @include mobile {
+    width: 380px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+
+.belgrad-guests-item-7 {
+  height: 892px;
+
+  background-image: url("./../../img/belgrad-guests/pic-07.png");
+  @include mediaBg() {
+    background-image: url("./../../img/belgrad-guests/pic-07@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 589px;
+  }
+
+  @include mobile {
+    width: 380px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}

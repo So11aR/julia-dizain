@@ -1,0 +1,312 @@
+.gk-nebo-item-1 {
+  height: 892px;
+
+  background-image: url("./../../img/gk-nebo/pic-01.png");
+  @include mediaBg() {
+    background-image: url("./../../img/gk-nebo/pic-01@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+  @include mobile {
+    width: 380px !important;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+
+}
+.gk-nebo-item-2 {
+  height: 892px;
+
+
+  background-image: url("./../../img/gk-nebo/pic-02.png");
+  @include mediaBg() {
+    background-image: url("./../../img/gk-nebo/pic-02@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 380px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+.gk-nebo-item-3 {
+  height: 892px;
+
+  background-image: url("./../../img/gk-nebo/pic-03.png");
+  @include mediaBg() {
+    background-image: url("./../../img/gk-nebo/pic-03@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+  @include mobile {
+    width: 380px !important;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+
+}
+.gk-nebo-item-4 {
+  width: 560px !important;
+  height: 695px;
+
+  background-image: url("./../../img/gk-nebo/pic-04.png");
+  @include mediaBg() {
+    background-image: url("./../../img/gk-nebo/pic-04@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+
+
+}
+.gk-nebo-item-5 {
+  width: 560px !important;
+  height: 695px;
+
+  background-image: url("./../../img/gk-nebo/pic-05.png");
+  @include mediaBg() {
+    background-image: url("./../../img/gk-nebo/pic-05@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+
+}
+.gk-nebo-item-6 {
+  height: 892px;
+
+  background-image: url("./../../img/gk-nebo/pic-06.png");
+  @include mediaBg() {
+    background-image: url("./../../img/gk-nebo/pic-06@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 380px !important;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+
+}
+.gk-nebo-item-7 {
+  width: 330px;
+  height: 345px;
+
+  background-image: url("./../../img/gk-nebo/pic-07.png");
+  @include mediaBg() {
+    background-image: url("./../../img/gk-nebo/pic-07@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 512px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+.gk-nebo-item-8 {
+  width: 330px !important;
+  height: 380px;
+  background-image: url("./../../img/gk-nebo/pic-08.png");
+  @include mediaBg() {
+    background-image: url("./../../img/gk-nebo/pic-08@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 510px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+.gk-nebo-item-9 {
+  width: 458px !important;
+  height: 744px;
+
+  background-image: url("./../../img/gk-nebo/pic-09.png");
+  @include mediaBg() {
+    background-image: url("./../../img/gk-nebo/pic-09@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 512px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+
+.gk-nebo-item-10 {
+  width: 330px !important;
+  height: 345px;
+
+  background-image: url("./../../img/gk-nebo/pic-10.png");
+  @include mediaBg() {
+    background-image: url("./../../img/gk-nebo/pic-10@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 512px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+
+.gk-nebo-item-11 {
+  width: 330px !important;
+  height: 380px;
+
+  background-image: url("./../../img/gk-nebo/pic-11.png");
+  @include mediaBg() {
+    background-image: url("./../../img/gk-nebo/pic-11@2x.png");
+  }
+
+  @include tablet {
+   display: none;
+  }
+
+  @include mobile {
+    width: 379px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+
+.gk-nebo-item-12 {
+  width: 560px !important;
+  height: 688px;
+
+  background-image: url("./../../img/gk-nebo/pic-12.png");
+  @include mediaBg() {
+    background-image: url("./../../img/gk-nebo/pic-12@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+
+.gk-nebo-item-13 {
+  width: 560px !important;
+  height: 688px;
+
+  background-image: url("./../../img/gk-nebo/pic-13.png");
+  @include mediaBg() {
+    background-image: url("./../../img/gk-nebo/pic-13@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+
+}

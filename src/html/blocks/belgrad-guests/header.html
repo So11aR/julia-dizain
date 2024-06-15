@@ -1,0 +1,23 @@
+<section class="serpuxov-hero-block">
+
+  <h1 class="serpuxov-hero-block__title">
+    Проект переоборудования и перепланировки гостиницы “Белград” с реновацией номерного фонда
+  </h1>
+
+  <div class="serpuxov-swiper">
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+
+        @@loop('card-swiper.html', './data/belgrad-guests.json') 
+      </div>
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+
+    <!-- <div class="swiper-pagination"></div> -->
+  </div>
+</section>
