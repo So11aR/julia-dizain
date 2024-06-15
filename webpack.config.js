@@ -5,7 +5,9 @@ const config = {
 		serpuxov: './src/js/serpuxov.js',
 		guestHouseRiverclub: './src/js/guest-house-riverclub.js',
 		office: './src/js/office.js',
-		magadan: './src/js/magadan.js'
+		magadan: './src/js/magadan.js',
+		houseRiverclub: './src/js/house-river-club.js'
+		
 		
 
 		

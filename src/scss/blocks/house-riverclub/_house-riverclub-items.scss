@@ -1,0 +1,332 @@
+.house-riverclub-item-1 {
+  width: 360px !important;
+  height: 430px;
+
+  @include tablet {
+    width: 377px !important;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+  background-image: url("./../../img/house-riverclub/pic-01.png");
+  @include mediaBg() {
+    background-image: url("./../../img/house-riverclub/pic-01@2x.png");
+  }
+}
+.house-riverclub-item-2 {
+  width: 360px !important;
+  height: 430px;
+
+  @include tablet {
+    width: 377px !important;
+    height: 511px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+
+  background-image: url("./../../img/house-riverclub/pic-02.png");
+  @include mediaBg() {
+    background-image: url("./../../img/house-riverclub/pic-02@2x.png");
+  }
+}
+.house-riverclub-item-3 {
+  width: 360px !important;
+  height: 430px;
+
+  @include tablet {
+    display: none;
+  }
+  @include mobile {
+    width: 184px;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px;
+    height: 186px;
+  }
+  background-image: url("./../../img/house-riverclub/pic-03.png");
+  @include mediaBg() {
+    background-image: url("./../../img/house-riverclub/pic-03@2x.png");
+  }
+}
+.house-riverclub-item-4 {
+  height: 892px;
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 381px !important;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+
+  background-image: url("./../../img/house-riverclub/pic-04.png");
+  @include mediaBg() {
+    background-image: url("./../../img/house-riverclub/pic-04@2x.png");
+  }
+}
+.house-riverclub-item-5 {
+  width: 560px !important;
+  height: 695px;
+
+  @include tablet {
+    width: 377px !important;
+    height: 511px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+  background-image: url("./../../img/house-riverclub/pic-05.png");
+  @include mediaBg() {
+    background-image: url("./../../img/house-riverclub/pic-05@2x.png");
+  }
+}
+.house-riverclub-item-6 {
+  width: 560px !important;
+  height: 695px;
+
+  background-image: url("./../../img/house-riverclub/pic-06.png");
+  @include mediaBg() {
+    background-image: url("./../../img/house-riverclub/pic-06@2x.png");
+  }
+
+  @include tablet {
+    width: 377px !important;
+    height: 511px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+.house-riverclub-item-7 {
+  height: 894px;
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+  @include mobile {
+    width: 381px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+
+  background-image: url("./../../img/house-riverclub/pic-07.png");
+  @include mediaBg() {
+    background-image: url("./../../img/house-riverclub/pic-07@2x.png");
+  }
+}
+.house-riverclub-item-8 {
+  height: 894px;
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 381px !important;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+  background-image: url("./../../img/house-riverclub/pic-08.png");
+  @include mediaBg() {
+    background-image: url("./../../img/house-riverclub/pic-08@2x.png");
+  }
+}
+.house-riverclub-item-9 {
+  width: 330px !important;
+  height: 345px;
+
+  background-image: url("./../../img/house-riverclub/pic-09.png");
+  @include mediaBg() {
+    background-image: url("./../../img/house-riverclub/pic-09@2x.png");
+  }
+
+  @include tablet {
+    width: 377px !important;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+.house-riverclub-item-10 {
+  width: 330px !important;
+  height: 380px;
+
+  background-image: url("./../../img/house-riverclub/pic-10.png");
+  @include mediaBg() {
+    background-image: url("./../../img/house-riverclub/pic-10@2x.png");
+  }
+
+  @include tablet {
+    width: 377px !important;
+    height: 511px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+.house-riverclub-item-11 {
+  width: 458px !important;
+  height: 744px;
+  background-image: url("./../../img/house-riverclub/pic-11.png");
+  @include mediaBg() {
+    background-image: url("./../../img/house-riverclub/pic-11@2x.png");
+  }
+
+  @include tablet {
+    width: 100% !important;
+    height: 569px;
+
+    background-image: url("./../../img/house-riverclub/pic-11-tablet.png");
+    @include mediaBg() {
+      background-image: url("./../../img/house-riverclub/pic-11-tablet@2x.png");
+    }
+  }
+
+  @include mobile {
+    width: 381px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+
+}
+.house-riverclub-item-12 {
+  width: 330px !important;
+  height: 345px;
+
+  @include tablet {
+    display: none;
+  }
+  background-image: url("./../../img/house-riverclub/pic-12.png");
+  @include mediaBg() {
+    background-image: url("./../../img/house-riverclub/pic-12@2x.png");
+  }
+}
+.house-riverclub-item-13 {
+  width: 330px !important;
+  height: 380px;
+
+  @include tablet {
+    display: none;
+  }
+
+  @include mobile {
+    width: 184px;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px;
+    height: 186px;
+  }
+
+  background-image: url("./../../img/house-riverclub/pic-13.png");
+  @include mediaBg() {
+    background-image: url("./../../img/house-riverclub/pic-13@2x.png");
+  }
+}
+.house-riverclub-item-14 {
+  width: 560px !important;
+  height: 695px;
+
+
+  @include tablet {
+    display: none;
+  }
+
+  @include mobile {
+    width: 184px;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px;
+    height: 186px;
+  }
+
+  background-image: url("./../../img/house-riverclub/pic-14.png");
+  @include mediaBg() {
+    background-image: url("./../../img/house-riverclub/pic-14@2x.png");
+  }
+}
+.house-riverclub-item-15 {
+  width: 560px !important;
+  height: 695px;
+
+
+  @include tablet {
+    display: none;
+  }
+
+  @include mobile {
+    width: 184px;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px;
+    height: 186px;
+  }
+
+  background-image: url("./../../img/house-riverclub/pic-15.png");
+  @include mediaBg() {
+    background-image: url("./../../img/house-riverclub/pic-15@2x.png");
+  }
+}
