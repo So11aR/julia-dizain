@@ -422,10 +422,11 @@
 
 .swiper-slide > .project-card {
   display: flex;
-  width: 100%;
+  min-width: 100%;
   background-color: transparent;
   justify-content: center;
   height: 100%;
+  min-height: 100%;
 }
 
 
