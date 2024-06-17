@@ -198,6 +198,7 @@
     width: 242px;
     height: 267px;
     left: -130px;
+    object-fit: cover;
   }
 
   @include mobile-xs {
@@ -264,6 +265,7 @@
     position: static;
     transform: translateX(0);
     width: 100%;
+    margin-top: 60px;
   }
 
 
@@ -423,6 +425,7 @@
 .swiper-slide > .project-card {
   display: flex;
   min-width: 100%;
+  width: 100%;
   background-color: transparent;
   justify-content: center;
   height: 100%;

@@ -143,16 +143,16 @@ gulp.task('images:docs', function () {
 			.pipe(gulp.dest('./docs/img/'))
 			.pipe(gulp.src('./src/img/**/*'))
 			.pipe(changed('./docs/img/'))
-			.pipe(
-				imagemin(
-					[
-						imagemin.gifsicle({ interlaced: true }),
-						imagemin.mozjpeg({ quality: 85, progressive: true }),
-						imagemin.optipng({ optimizationLevel: 5 }),
-					],
-					{ verbose: true }
-				)
-			)
+			// .pipe(
+			// 	imagemin(
+			// 		[
+			// 			imagemin.gifsicle({ interlaced: true }),
+			// 			imagemin.mozjpeg({ quality: 85, progressive: true }),
+			// 			imagemin.optipng({ optimizationLevel: 5 }),
+			// 		],
+			// 		{ verbose: true }
+			// 	)
+			// )
 			.pipe(gulp.dest('./docs/img/'))
 	);
 });
