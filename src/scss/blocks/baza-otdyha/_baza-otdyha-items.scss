@@ -1,0 +1,90 @@
+.baza-otdyha-item-1 {
+  width: 560px !important;
+  height: 747px;
+
+  background-image: url("./../../img/baza-otdyha/pic-01.png");
+  @include mediaBg() {
+    background-image: url("./../../img/baza-otdyha/pic-01@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+
+}
+.baza-otdyha-item-2 {
+  width: 560px !important;
+  height: 747px;
+
+  background-image: url("./../../img/baza-otdyha/pic-02.png");
+  @include mediaBg() {
+    background-image: url("./../../img/baza-otdyha/pic-02@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+.baza-otdyha-item-3 {
+  width: 560px !important;
+  height: 747px;
+  background-image: url("./../../img/baza-otdyha/pic-03.png");
+  @include mediaBg() {
+    background-image: url("./../../img/baza-otdyha/pic-03@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+.baza-otdyha-item-4 {
+  width: 560px !important;
+  height: 747px;
+  background-image: url("./../../img/baza-otdyha/pic-04.png");
+  @include mediaBg() {
+    background-image: url("./../../img/baza-otdyha/pic-04@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 585px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}

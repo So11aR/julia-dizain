@@ -1,0 +1,94 @@
+.avtosalon-item-1 {
+  height: 770px;
+
+  background-image: url("./../../img/avtosalon/pic-01.png");
+  @include mediaBg() {
+    background-image: url("./../../img/avtosalon/pic-01@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+
+}
+.avtosalon-item-2 {
+  height: 770px;
+
+  background-image: url("./../../img/avtosalon/pic-02.png");
+  @include mediaBg() {
+    background-image: url("./../../img/avtosalon/pic-02@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+.avtosalon-item-3 {
+  height: 770px;
+
+  background-image: url("./../../img/avtosalon/pic-03.png");
+  @include mediaBg() {
+    background-image: url("./../../img/avtosalon/pic-03@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+
+}
+.avtosalon-item-4 {
+  height: 770px;
+
+  background-image: url("./../../img/avtosalon/pic-04.png");
+  @include mediaBg() {
+    background-image: url("./../../img/avtosalon/pic-04@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}

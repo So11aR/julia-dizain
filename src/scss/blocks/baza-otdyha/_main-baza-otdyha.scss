@@ -1,0 +1,27 @@
+.baza-otdyha-row-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 132px;
+  margin-bottom: 34px;
+
+  @include tablet {
+    align-items: center;
+  }
+}
+
+.baza-otdyha-main-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+
+  @include tablet {
+    column-gap: 13px;
+  }
+}
+
+.baza-otdyha-bg-image-handler {
+  width: 100%;
+  background-position: center center; /* x y */
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,61 @@
+.riverclub-house2-row-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 132px;
+  margin-bottom: 34px;
+
+  @include tablet {
+    align-items: center;
+  }
+}
+
+
+
+// .riverclub-house2-hard-block {
+//   @include tablet {
+//     flex-direction: row;
+//   }
+// }
+
+.riverclub-house2-hard-block--tablet {
+  display: none !important;
+
+  @include tablet {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.riverclub-house2-main-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+
+  @include tablet {
+    column-gap: 13px;
+  }
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @include tablet {
+      flex-direction: row;
+      column-gap: 12px;
+    }
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.riverclub-house2-bg-image-handler {
+  width: 100%;
+  background-position: center center; /* x y */
+  background-size: cover;
+  background-repeat: no-repeat;
+}

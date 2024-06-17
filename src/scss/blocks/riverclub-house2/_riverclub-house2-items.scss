@@ -1,0 +1,130 @@
+.riverclub-house2-item-1 {
+  height: 894px;
+
+  background-image: url("./../../img/riverclub-house2/pic-01.png");
+  @include mediaBg() {
+    background-image: url("./../../img/riverclub-house2/pic-01@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+  @include mobile {
+    width: 380px !important;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 300px !important;
+    height: 231px;
+  }
+
+}
+.riverclub-house2-item-2 {
+  height: 894px;
+  background-image: url("./../../img/riverclub-house2/pic-02.png");
+  @include mediaBg() {
+    background-image: url("./../../img/riverclub-house2/pic-02@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 380px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 300px !important;
+    height: 231px;
+  }
+}
+.riverclub-house2-item-3 {
+  width: 473px !important;
+  height: 494px;
+  background-image: url("./../../img/riverclub-house2/pic-03.png");
+  @include mediaBg() {
+    background-image: url("./../../img/riverclub-house2/pic-03@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 142px !important;
+    height: 186px;
+  }
+}
+.riverclub-house2-item-4 {
+  width: 473px !important;
+  height: 544px;
+  background-image: url("./../../img/riverclub-house2/pic-04.png");
+  @include mediaBg() {
+    background-image: url("./../../img/riverclub-house2/pic-04@2x.png");
+  }
+
+  @include tablet {
+    display: none;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 142px !important;
+    height: 186px;
+  }
+}
+.riverclub-house2-item-5 {
+  width: 656px !important;
+  height: 1066px;
+  background-image: url("./../../img/riverclub-house2/pic-05.png");
+  @include mediaBg() {
+    background-image: url("./../../img/riverclub-house2/pic-05@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 142px !important;
+    height: 186px;
+  }
+}
+.riverclub-house2-item-6 {
+  height: 894px;
+  background-image: url("./../../img/riverclub-house2/pic-06.png");
+  @include mediaBg() {
+    background-image: url("./../../img/riverclub-house2/pic-06@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 380px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 300px !important;
+    height: 231px;
+  }
+}

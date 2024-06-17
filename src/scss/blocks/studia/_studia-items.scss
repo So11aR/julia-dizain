@@ -1,0 +1,46 @@
+.studia-item-1 {
+  height: 770px;
+
+  background-image: url("./../../img/studia/pic-01.png");
+  @include mediaBg() {
+    background-image: url("./../../img/studia/pic-01@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+.studia-item-2 {
+  height: 770px;
+
+  background-image: url("./../../img/studia/pic-02.png");
+  @include mediaBg() {
+    background-image: url("./../../img/studia/pic-02@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
