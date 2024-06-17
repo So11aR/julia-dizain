@@ -17,16 +17,16 @@
   min-height: calc(100vh - 141.26px);
 
   @include tablet {
-    background-image: url('./../../img/hero-bg-tablet.jpg');
+    background-image: url('./../../img/hero-bg-tablet.jpg') !important;
     @include mediaBg() {
-      background-image: url('./../../img/hero-bg-tablet@2x.jpg');
+      background-image: url('./../../img/hero-bg-tablet@2x.jpg') !important;
     }
   }
 
   @include mobile {
-    background-image: url('./../../img/hero-bg-mob.jpg');
+    background-image: url('./../../img/hero-bg-mob.jpg') !important;
     @include mediaBg() {
-      background-image: url('./../../img/hero-bg-mob@2x.jpg');
+      background-image: url('./../../img/hero-bg-mob@2x.jpg') !important;
     }
   }
 
