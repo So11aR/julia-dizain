@@ -16,6 +16,20 @@
   
   min-height: calc(100vh - 141.26px);
 
+  @include tablet {
+    background-image: url('./../../img/hero-bg-tablet.jpg');
+    @include mediaBg() {
+      background-image: url('./../../img/hero-bg-tablet@2x.jpg');
+    }
+  }
+
+  @include mobile {
+    background-image: url('./../../img/hero-bg-mob.jpg');
+    @include mediaBg() {
+      background-image: url('./../../img/hero-bg-mob@2x.jpg');
+    }
+  }
+
 
   color: #fff;
   font-weight: 400;
