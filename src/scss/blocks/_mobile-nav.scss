@@ -1,22 +1,20 @@
 .mobile-nav {
-  position: fixed;
-  // top: 0;
-  top: -150%;
-  width: 100%;
-  height: 100%;
-  z-index: 99;
 
-  font-family: ProximaNova;
-
-  // align-items: center;
-  // justify-content: center;
-  // padding-top: 40px;
-  // padding-bottom: 40px;
-  padding: 84px;
-  // background: linear-gradient(209deg, #4287b3 -17.38%, #133f6b 78.4%), #276195;
-  background: #fff;
+  display: none;
   transition: all 0.2s ease-in;
 
+  @include tablet {
+    position: fixed;
+    // top: 0;
+    top: -150%;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    font-family: ProximaNova;
+    background: #fff;
+    padding: 84px;
+  }
+  
 	@include mobile {
 		padding: 68px 18px;
 	}

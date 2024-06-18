@@ -24,10 +24,10 @@
   }
 
   @include mobile {
-    background-image: url('./../../img/hero-bg-mob.jpg') !important;
-    @include mediaBg() {
-      background-image: url('./../../img/hero-bg-mob@2x.jpg') !important;
-    }
+    background-image: url('./../../img/hero-bg-tablet-new.jpg') !important;
+    // @include mediaBg() {
+    //   background-image: url('./../../img/hero-bg-mob@2x.jpg') !important;
+    // }
   }
 
 
