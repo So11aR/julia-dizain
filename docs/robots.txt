@@ -1,0 +1,4 @@
+User-agent: 
+Crawl-delay: 1
+Host: http://solntseva1917.ru/
+Sitemap: http://solntseva1917.ru/sitemap.xml
