@@ -41,6 +41,8 @@
     font-family: var(--second-family);
     font-size: 3.75em;
     line-height: 67px;
+    max-width: 1000px;
+
 
     @include tablet {
       max-width: 500px;
