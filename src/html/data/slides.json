@@ -1,19 +1,32 @@
 [
-	{
-		"image": "./../img/projects/project-01.png",
-		"text": "Жилой дом, г. Серпухов"
-	},
   {
-		"image": "../../img/projects/project-2.png",
-		"text": "Жилой дом, пос. Ривер Клаб"
-	},
+    "url": "serpuxov.html",
+    "image": "../../img/projects/project-01.png",
+    "text": "Жилой дом, г. Серпухов"
+  },
   {
-		"image": "../../img/projects/project-4.png",
-		"text": "Мастерская"
-	},
+    "url": "house-riverclub.html",
+    "image": "../../img/projects/project-2.png",
+    "text": "Жилой дом, пос. Ривер Клаб"
+  },
   {
-		"image": "../../img/projects/project-5.png",
-		"text": "Квартира, ЖК Седьмое небо"
-	}
+    "url": "office.html",
+    "image": "../../img/projects/project-3.png",
+    "text": "Офис"
+  },
+  {
+    "url": "masterskaya.html",
+    "image": "../../img/projects/project-4.png",
+    "text": "Мастеркая"
+  },
+  {
+    "url": "gk-sedmoe-nebo.html",
+    "image": "../../img/projects/project-5.png",
+    "text": "Квартира, ЖК Седьмое небо"
+  },
+  {
+    "url": "guest-house-riverclub.html",
+    "image": "../../img/projects/project-6.png",
+    "text": "Гостевой дом, пос. Ривер Клаб"
+  }
 ]
-  

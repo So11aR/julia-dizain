@@ -4,6 +4,7 @@
   transition: all 0.2s ease-in;
 
   @include tablet {
+    display: block;
     position: fixed;
     // top: 0;
     top: -150%;

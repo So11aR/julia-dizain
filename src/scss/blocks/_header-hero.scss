@@ -17,17 +17,19 @@
   min-height: calc(100vh - 141.26px);
 
   @include tablet {
-    background-image: url('./../../img/hero-bg-tablet.jpg') !important;
+    background-image: url('./../../img/hero-bg-tablet-new.jpg') !important;
     @include mediaBg() {
-      background-image: url('./../../img/hero-bg-tablet@2x.jpg') !important;
+      background-image: url('./../../img/hero-bg-tablet-new@2x.jpg') !important;
     }
   }
 
   @include mobile {
+    row-gap: 30px;
+
     background-image: url('./../../img/hero-bg-tablet-new.jpg') !important;
-    // @include mediaBg() {
-    //   background-image: url('./../../img/hero-bg-mob@2x.jpg') !important;
-    // }
+    @include mediaBg() {
+      background-image: url('./../../img/hero-bg-tablet-new@2x.jpg') !important;
+    }
   }
 
 
@@ -41,11 +43,17 @@
     line-height: 67px;
 
     @include tablet {
-      font-size: 60px;
+      max-width: 500px;
+      font-size: 40px;
+      line-height: 122%;
     }
 
     @include mobile {
       font-size: 30px;
+    }
+
+    @include mobile-xs {
+      font-size: 24px;
     }
   }
 
@@ -53,6 +61,14 @@
     font-family: var(--font-main);
     font-size: 1.25em;
     line-height: 1.9;
+
+    @include tablet {
+      font-size: 16px;
+    }
+
+    @include mobile-xs {
+      font-size: 12px;
+    }
   }
 
 }
