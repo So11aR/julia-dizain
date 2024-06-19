@@ -27,7 +27,6 @@
 .magadan-row-wrapper {
   display: flex;
   flex-direction: column;
-  margin-top: 132px;
   margin-bottom: 34px;
 
   & > .magadan-main-row:nth-child(1) {
@@ -52,45 +51,7 @@
       // order: 0;
       flex-direction: column;
     }
-
-    // & > .magadan-main-row:nth-child(2) {
-    //   order: 1;
-    // }
-
-    // & > .magadan-main-row:nth-child(3) {
-    //   order: 3;
-    // }
-
-    // & > .magadan-main-row:nth-child(4) {
-    //   order: 2;
-    // }
-
-    // & > .magadan-main-row:nth-child(5) {
-    //   @include tablet {
-    //     display: none;
-    //   }
-    // }
-
-    // & > .magadan-main-row:nth-child(6) {
-    //   order: 6;
-    // }
-
-    // & > .magadan-main-row:nth-child(7) {
-    //   order: 7;
-    // }
-
-    // & > .magadan-main-row:nth-child(8) {
-    //   order: 8;
-    // }
   }
-}
-
-
-
-.magadan-hard-block {
-  // @include tablet {
-  //   display: none !important;
-  // }
 }
 
 .magadan-hard-block--tablet {

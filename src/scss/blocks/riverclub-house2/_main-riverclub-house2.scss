@@ -1,21 +1,12 @@
 .riverclub-house2-row-wrapper {
   display: flex;
   flex-direction: column;
-  margin-top: 132px;
   margin-bottom: 34px;
 
   @include tablet {
     align-items: center;
   }
 }
-
-
-
-// .riverclub-house2-hard-block {
-//   @include tablet {
-//     flex-direction: row;
-//   }
-// }
 
 .riverclub-house2-hard-block--tablet {
   display: none !important;

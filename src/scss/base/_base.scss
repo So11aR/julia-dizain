@@ -100,3 +100,71 @@ input[type="checkbox"] {
 		display: block;
 	}
 }
+
+
+.pages-navigation-descktop {
+  margin: 60px 0;
+  display: flex;
+  column-gap: 17px;
+  align-items: center;
+
+  @include tablet {
+    display: none;
+  }
+
+  &__link {
+    font-family: var(--font-main);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    color: #9a9a9a;
+    padding-bottom: 7px;
+  }
+
+  &--underline {
+    border-bottom: 1px solid #9a9a9a;
+  }
+
+  &__text {
+    font-family: var(--font-main);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    color: #9a9a9a;
+    padding-bottom: 7px;
+  }
+}
+
+
+.pages-navigation-tablet {
+  display: none;
+
+  @include tablet {
+    margin: 60px 0;
+    display: flex;
+    column-gap: 17px;
+    align-items: center;
+    padding-left: 60px !important;
+  }
+
+  @include mobile {
+    padding-left: 10px !important;
+  }
+
+  &__link {
+    font-family: var(--font-main);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+    color: #9a9a9a;
+    padding-bottom: 7px;
+  }
+
+  &--underline {
+    border-bottom: 1px solid #9a9a9a;
+  }
+}
+
+.text-arrow {
+  padding-bottom: 7px;
+}

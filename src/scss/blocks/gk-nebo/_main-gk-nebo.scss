@@ -9,7 +9,6 @@
 .gk-nebo-row-wrapper {
   display: flex;
   flex-direction: column;
-  margin-top: 132px;
   margin-bottom: 34px;
 
   @include tablet {
@@ -46,14 +45,6 @@
       order: 6;
     }
   }
-}
-
-
-
-.gk-nebo-hard-block {
-  // @include tablet {
-  //   display: none !important;
-  // }
 }
 
 .gk-nebo-hard-block--tablet {

@@ -3,21 +3,12 @@
 .tumen-filarmonia-row-wrapper {
   display: flex;
   flex-direction: column;
-  margin-top: 132px;
   margin-bottom: 34px;
 
   @include tablet {
     align-items: center;
   }
 }
-
-
-
-// .tumen-filarmonia-hard-block {
-//   @include tablet {
-//     flex-direction: row;
-//   }
-// }
 
 .tumen-filarmonia-hard-block--tablet {
   display: none !important;
