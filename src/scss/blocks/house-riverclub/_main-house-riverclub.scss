@@ -37,6 +37,9 @@
     flex-direction: column;
     row-gap: 13px;
   }
+  @include mobile {
+    row-gap: 9px;
+  }
 }
 
 .house-riverclub-hard-block--tablet {
@@ -55,7 +58,9 @@
   margin-bottom: 8px;
 
   @include tablet {
-    column-gap: 13px;
+    column-gap: 10px;
+    margin-bottom: 5px;
+
   }
 
   &__left {
@@ -66,6 +71,10 @@
     @include tablet {
       flex-direction: row;
       column-gap: 13px;
+    }
+
+    @include mobile {
+      column-gap: 9px;
     }
   }
 

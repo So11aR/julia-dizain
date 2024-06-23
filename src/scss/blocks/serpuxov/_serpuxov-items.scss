@@ -1,15 +1,15 @@
 .serpuxov-item-1 {
   height: 892px;
   @include tablet {
-    width: 769px;
+    width: 766px;
     height: 586px;
   }
   @include mobile {
-    width: 378px;
+    width: 374px;
     height: 285px;
   }
   @include mobile-serpuxov-xs {
-    width: 313px;
+    width: 306px;
     height: 231px;
   }
   background-image: url("./../../img/serpuxov/pic-01.png");
@@ -18,7 +18,7 @@
   }
 }
 .serpuxov-item-2 {
-  width: 560px;
+  width: 588px;
   height: 695px;
 
   @include tablet {
@@ -42,7 +42,7 @@
   }
 }
 .serpuxov-item-3 {
-  width: 560px;
+  width: 588px;
   height: 695px;
 
   @include tablet {
@@ -63,7 +63,7 @@
   }
 }
 .serpuxov-item-4 {
-  width: 360px;
+  width: 389px;
   height: 448px;
 
   @include tablet {
@@ -86,7 +86,7 @@
   }
 }
 .serpuxov-item-5 {
-  width: 360px;
+  width: 389px;
   height: 448px;
 
   @include tablet {
@@ -108,7 +108,7 @@
   }
 }
 .serpuxov-item-6 {
-  width: 360px;
+  width: 389px;
 
   height: 448px;
 
@@ -125,16 +125,16 @@
   height: 894px;
 
   @include tablet {
-    width: 769px;
+    width: 766px;
     height: 586px;
   }
   @include mobile {
-    width: 378px;
+    width: 374px;
     height: 285px;
   }
 
   @include mobile-serpuxov-xs {
-    width: 313px;
+    width: 306px;
     height: 231px;
   }
 
@@ -144,7 +144,7 @@
   }
 }
 .serpuxov-item-8 {
-  width: 330px;
+  width: 354px;
   height: 345px;
 
   @include tablet {
@@ -166,8 +166,8 @@
   }
 }
 .serpuxov-item-9 {
-  width: 330px;
-  height: 380px;
+  width: 354px;
+  height: 390px;
   background-image: url("./../../img/serpuxov/pic-09.png");
   @include mediaBg() {
     background-image: url("./../../img/serpuxov/pic-09@2x.png");
@@ -183,7 +183,7 @@
   }
 
   @include tablet {
-    width: 769px;
+    width: 766px;
     height: 586px;
     background-image: url("./../../img/serpuxov/pic-10-tablet.png");
     @include mediaBg() {
@@ -192,17 +192,17 @@
   }
 
   @include mobile {
-    width: 378px;
+    width: 374px;
     height: 285px;
   }
 
   @include mobile-serpuxov-xs {
-    width: 313px;
+    width: 306px;
     height: 231px;
   }
 }
 .serpuxov-item-11 {
-  width: 330px;
+  width: 354px;
   height: 345px;
   @include tablet {
     width: 378px;
@@ -223,8 +223,8 @@
   }
 }
 .serpuxov-item-12 {
-  width: 330px;
-  height: 380px;
+  width: 354px;
+  height: 390px;
   background-image: url("./../../img/serpuxov/pic-12.png");
   @include mediaBg() {
     background-image: url("./../../img/serpuxov/pic-12@2x.png");
@@ -232,7 +232,7 @@
 }
 .serpuxov-item-13 {
   height: 695px;
-  width: 560px;
+  width: 588px;
 
   @include tablet {
     width: 378px;
@@ -255,7 +255,7 @@
 }
 .serpuxov-item-14 {
   height: 695px;
-  width: 560px;
+  width: 588px;
 
   @include tablet {
     width: 378px;

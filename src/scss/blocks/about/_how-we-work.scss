@@ -185,6 +185,25 @@
   }
 }
 
+.additional-text-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 90px;
+}
+
+.additional-text {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  color: var(--korichnevyy);
+  max-width: 500px;
+  @include mobile {
+    // max-width: 170px;
+    font-size: 13px;
+  }
+}
+
 
 .bg-beige .how-we-work__text {
   max-width: 452px;

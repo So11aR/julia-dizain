@@ -25,6 +25,7 @@
     display: flex !important;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 0 !important;
   }
 }
 
@@ -34,7 +35,12 @@
   margin-bottom: 8px;
 
   @include tablet {
-    column-gap: 13px;
+    column-gap: 10px;
+  }
+
+  @include mobile {
+    column-gap: 6px;
+    margin-bottom: 5px;
   }
 
   &__left {

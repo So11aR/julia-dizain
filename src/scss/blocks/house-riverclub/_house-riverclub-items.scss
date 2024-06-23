@@ -1,5 +1,5 @@
 .house-riverclub-item-1 {
-  width: 360px !important;
+  width: 389px !important;
   height: 430px;
 
   @include tablet {
@@ -20,7 +20,7 @@
   }
 }
 .house-riverclub-item-2 {
-  width: 360px !important;
+  width: 389px !important;
   height: 430px;
 
   @include tablet {
@@ -44,7 +44,7 @@
   }
 }
 .house-riverclub-item-3 {
-  width: 360px !important;
+  width: 389px !important;
   height: 430px;
 
   @include tablet {
@@ -67,8 +67,9 @@
   height: 892px;
 
   @include tablet {
-    width: 768px !important;
+    width: 764px !important;
     height: 569px;
+    margin-top: 4px;
   }
 
   @include mobile {
@@ -86,7 +87,7 @@
   }
 }
 .house-riverclub-item-5 {
-  width: 560px !important;
+  width: 588px !important;
   height: 695px;
 
   @include tablet {
@@ -108,7 +109,7 @@
   }
 }
 .house-riverclub-item-6 {
-  width: 560px !important;
+  width: 588px !important;
   height: 695px;
 
   background-image: url("./../../img/house-riverclub/pic-06.png");
@@ -137,6 +138,7 @@
   @include tablet {
     width: 768px !important;
     height: 569px;
+    margin-top: 4px;
   }
   @include mobile {
     width: 381px !important;
@@ -157,8 +159,9 @@
   height: 894px;
 
   @include tablet {
-    width: 768px !important;
+    width: 766px !important;
     height: 569px;
+    margin-top: 4px;
   }
 
   @include mobile {
@@ -175,7 +178,7 @@
   }
 }
 .house-riverclub-item-9 {
-  width: 330px !important;
+  width: 354px !important;
   height: 345px;
 
   background-image: url("./../../img/house-riverclub/pic-09.png");
@@ -186,6 +189,7 @@
   @include tablet {
     width: 377px !important;
     height: 511px;
+    margin-top: 4px;
   }
   @include mobile {
     width: 184px !important;
@@ -198,8 +202,8 @@
   }
 }
 .house-riverclub-item-10 {
-  width: 330px !important;
-  height: 380px;
+  width: 354px !important;
+  height: 390px;
 
   background-image: url("./../../img/house-riverclub/pic-10.png");
   @include mediaBg() {
@@ -209,6 +213,7 @@
   @include tablet {
     width: 377px !important;
     height: 511px;
+    margin-top: 4px;
   }
 
   @include mobile {
@@ -251,7 +256,7 @@
 
 }
 .house-riverclub-item-12 {
-  width: 330px !important;
+  width: 354px !important;
   height: 345px;
 
   @include tablet {
@@ -263,8 +268,8 @@
   }
 }
 .house-riverclub-item-13 {
-  width: 330px !important;
-  height: 380px;
+  width: 354px !important;
+  height: 390px;
 
   @include tablet {
     display: none;
@@ -285,7 +290,7 @@
   }
 }
 .house-riverclub-item-14 {
-  width: 560px !important;
+  width: 588px !important;
   height: 695px;
 
 
@@ -308,7 +313,7 @@
   }
 }
 .house-riverclub-item-15 {
-  width: 560px !important;
+  width: 588px !important;
   height: 695px;
 
 
