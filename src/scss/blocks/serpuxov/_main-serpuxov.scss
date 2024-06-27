@@ -56,6 +56,56 @@
   }
 }
 
+.serpuxov-video {
+  width: 458px !important;
+  height: 744px;
+
+  @include tablet {
+    width: 766px !important;
+    height: 586px;
+  }
+  @include mobile {
+    width: 374px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 306px !important;
+    height: 231px;
+  }
+}
+
+.serpuxov-video-2 {
+  width: 354px !important;
+  height: 390px;
+}
+
+.serpuxov-video-3 {
+  height: 695px;
+  width: 588px !important;
+
+  @include tablet {
+    width: 766px !important;
+    height: 511px;
+  }
+
+  @include mobile {
+    width: 374px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 306px !important;
+    height: 186px;
+  }
+}
+
+.serpuxov-bg-image-handler {
+  width: 100%;
+  background-position: center center; /* x y */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .serpuxov-bg-image-handler {
   width: 100%;
   background-position: center center; /* x y */
