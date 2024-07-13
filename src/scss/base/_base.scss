@@ -172,3 +172,11 @@ input[type="checkbox"] {
 video {
   object-fit: cover;
 }
+
+.hidden {
+  visibility: hidden !important;
+
+  @include mobile {
+    display: none !important;
+  }
+}

@@ -82,6 +82,12 @@
     background-image: url('./../../img/portfolio/short/pic-14@2x.png');
   }
 }
+.portfolio-long-item-15 {
+  background-image: url('./../../img/portfolio/short/pic-15.png');
+  @include mediaBg() {
+    background-image: url('./../../img/portfolio/short/pic-15@2x.png');
+  }
+}
 
 
 .portfolio-short-item-1 {

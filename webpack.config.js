@@ -21,6 +21,8 @@ const config = {
 		naves: './src/js/naves.js',
 		ledoviy: './src/js/ledoviy.js',
 		studia: './src/js/studia.js',
+		game: './src/js/game.js',
+
 
 
 

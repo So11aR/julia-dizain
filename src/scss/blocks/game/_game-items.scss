@@ -1,0 +1,45 @@
+.game-item-2 {
+  width: 588px !important;
+  height: 695px;
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+
+  background-image: url("./../../img/game/pic-01.png");
+  @include mediaBg() {
+    background-image: url("./../../img/game/pic-01@2x.png");
+  }
+}
+.game-item-3 {
+  width: 588px !important;
+  height: 695px;
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+  background-image: url("./../../img/game/pic-02.png");
+  @include mediaBg() {
+    background-image: url("./../../img/game/pic-02@2x.png");
+  }
+}
