@@ -1,0 +1,204 @@
+.ruletka-item-1 {
+  width: 389px !important;
+  height: 430px;
+
+  @include tablet {
+    width: 377px !important;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+  background-image: url("./../../img/tnt-ruletka/pic-01.png");
+  @include mediaBg() {
+    background-image: url("./../../img/tnt-ruletka/pic-01@2x.png");
+  }
+}
+.ruletka-item-2 {
+  width: 389px !important;
+  height: 430px;
+
+  @include tablet {
+    width: 377px !important;
+    height: 511px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+
+  background-image: url("./../../img/tnt-ruletka/pic-02.png");
+  @include mediaBg() {
+    background-image: url("./../../img/tnt-ruletka/pic-02@2x.png");
+  }
+}
+.ruletka-item-3 {
+  width: 389px !important;
+  height: 430px;
+
+  @include tablet {
+    display: none;
+  }
+  @include mobile {
+    width: 184px;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px;
+    height: 186px;
+  }
+  background-image: url("./../../img/tnt-ruletka/pic-03.png");
+  @include mediaBg() {
+    background-image: url("./../../img/tnt-ruletka/pic-03@2x.png");
+  }
+}
+.ruletka-item-4 {
+  height: 892px;
+
+  @include tablet {
+    width: 764px !important;
+    height: 569px;
+    margin-top: 4px;
+  }
+
+  @include mobile {
+    width: 381px !important;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+
+  background-image: url("./../../img/tnt-ruletka/pic-04.png");
+  @include mediaBg() {
+    background-image: url("./../../img/tnt-ruletka/pic-04@2x.png");
+  }
+}
+.ruletka-item-5 {
+  width: 588px !important;
+  height: 695px;
+
+  @include tablet {
+    width: 377px !important;
+    height: 511px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+  background-image: url("./../../img/tnt-ruletka/pic-05.png");
+  @include mediaBg() {
+    background-image: url("./../../img/tnt-ruletka/pic-05@2x.png");
+  }
+}
+.ruletka-item-6 {
+  width: 588px !important;
+  height: 695px;
+
+  background-image: url("./../../img/tnt-ruletka/pic-06.png");
+  @include mediaBg() {
+    background-image: url("./../../img/tnt-ruletka/pic-06@2x.png");
+  }
+
+  @include tablet {
+    width: 377px !important;
+    height: 511px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+.ruletka-item-7 {
+  height: 894px;
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+    margin-top: 4px;
+  }
+  @include mobile {
+    width: 381px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+
+  background-image: url("./../../img/tnt-ruletka/pic-07.png");
+  @include mediaBg() {
+    background-image: url("./../../img/tnt-ruletka/pic-07@2x.png");
+  }
+}
+
+.ruletka-item-8 {
+  width: 588px !important;
+  height: 695px;
+
+
+  @include tablet {
+    display: none;
+  }
+
+  @include mobile {
+    width: 184px;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px;
+    height: 186px;
+  }
+
+  background-image: url("./../../img/tnt-ruletka/pic-08.png");
+  @include mediaBg() {
+    background-image: url("./../../img/tnt-ruletka/pic-08@2x.png");
+  }
+}
+.ruletka-item-9 {
+  width: 588px !important;
+  height: 695px;
+
+
+  @include tablet {
+    display: none;
+  }
+
+  @include mobile {
+    width: 184px;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px;
+    height: 186px;
+  }
+
+  background-image: url("./../../img/tnt-ruletka/pic-09.png");
+  @include mediaBg() {
+    background-image: url("./../../img/tnt-ruletka/pic-09@2x.png");
+  }
+}
