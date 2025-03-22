@@ -1,0 +1,483 @@
+.rus-vyzov-item-1 {
+  width: 588px !important;
+  height: 695px;
+
+  background-image: url("./../../img/rus-vyzov/pic-01.png");
+  @include mediaBg() {
+    background-image: url("./../../img/rus-vyzov/pic-01@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+
+}
+.rus-vyzov-item-2 {
+  width: 588px !important;
+  height: 695px;
+
+  background-image: url("./../../img/rus-vyzov/pic-02.png");
+  @include mediaBg() {
+    background-image: url("./../../img/rus-vyzov/pic-02@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+.rus-vyzov-item-3 {
+  height: 892px;
+
+  background-image: url("./../../img/rus-vyzov/pic-03.png");
+  @include mediaBg() {
+    background-image: url("./../../img/rus-vyzov/pic-03@2x.png");
+  }
+
+  @include tablet {
+    width: 768px;
+    height: 585px;
+  }
+  @include mobile {
+    width: 379px;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+
+}
+.rus-vyzov-item-4 {
+  height: 892px;
+
+  background-image: url("./../../img/rus-vyzov/pic-04.png");
+  @include mediaBg() {
+    background-image: url("./../../img/rus-vyzov/pic-04@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 585px;
+  }
+
+  @include mobile {
+    width: 378px !important;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+.rus-vyzov-item-5 {
+  height: 892px;
+
+  background-image: url("./../../img/rus-vyzov/pic-05.png");
+  @include mediaBg() {
+    background-image: url("./../../img/rus-vyzov/pic-05@2x.png");
+  }
+  @include tablet {
+    width: 768px !important;
+    height: 585px;
+  }
+
+  @include mobile {
+    width: 378px !important;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+
+.rus-vyzov-item-6 {
+  width: 520px !important;
+  height: 526px;
+
+  background-image: url("./../../img/rus-vyzov/pic-06.png");
+  @include mediaBg() {
+    background-image: url("./../../img/rus-vyzov/pic-06@2x.png");
+  }
+
+  @include tablet {
+    display: none;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+.rus-vyzov-item-6-tablet {
+  width: 473px !important;
+  height: 494px;
+
+  background-image: url("./../../img/rus-vyzov/pic-06.png");
+  @include mediaBg() {
+    background-image: url("./../../img/rus-vyzov/pic-06@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+.rus-vyzov-item-7 {
+  width: 520px !important;
+  height: 532px;
+
+  background-image: url("./../../img/rus-vyzov/pic-07.png");
+  @include mediaBg() {
+    background-image: url("./../../img/rus-vyzov/pic-07@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 512px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+.rus-vyzov-item-8 {
+  width: 656px !important;
+  height: 1066px;
+  background-image: url("./../../img/rus-vyzov/pic-08.png");
+  @include mediaBg() {
+    background-image: url("./../../img/rus-vyzov/pic-08@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 510px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+
+.rus-vyzov-item-9 {
+  width: 389px !important;
+  height: 430px;
+
+  background-image: url("./../../img/rus-vyzov/pic-09.png");
+  @include mediaBg() {
+    background-image: url("./../../img/rus-vyzov/pic-09@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 512px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+
+.rus-vyzov-item-10 {
+  width: 389px !important;
+  height: 430px;
+
+  background-image: url("./../../img/rus-vyzov/pic-10.png");
+  @include mediaBg() {
+    background-image: url("./../../img/rus-vyzov/pic-10@2x.png");
+  }
+  @include tablet {
+    width: 378px !important;
+    height: 512px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+
+.rus-vyzov-item-11 {
+  width: 389px !important;
+  height: 430px;
+
+  background-image: url("./../../img/rus-vyzov/pic-11.png");
+  @include mediaBg() {
+    background-image: url("./../../img/rus-vyzov/pic-11@2x.png");
+  }
+  @include tablet {
+    width: 378px !important;
+    height: 512px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+
+.rus-vyzov-item-12 {
+  height: 892px;
+
+  background-image: url("./../../img/rus-vyzov/pic-12.png");
+  @include mediaBg() {
+    background-image: url("./../../img/rus-vyzov/pic-12@2x.png");
+  }
+
+  @include tablet {
+    width: 768px;
+    height: 585px;
+  }
+  @include mobile {
+    width: 379px;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+
+}
+.rus-vyzov-item-13 {
+  height: 892px;
+
+  background-image: url("./../../img/rus-vyzov/pic-13.png");
+  @include mediaBg() {
+    background-image: url("./../../img/rus-vyzov/pic-13@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 585px;
+  }
+
+  @include mobile {
+    width: 378px !important;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+.rus-vyzov-item-14 {
+  width: 588px !important;
+  height: 695px;
+
+  background-image: url("./../../img/rus-vyzov/pic-14.png");
+  @include mediaBg() {
+    background-image: url("./../../img/rus-vyzov/pic-14@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+
+}
+.rus-vyzov-item-15 {
+  width: 588px !important;
+  height: 695px;
+
+  background-image: url("./../../img/rus-vyzov/pic-15.png");
+  @include mediaBg() {
+    background-image: url("./../../img/rus-vyzov/pic-15@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+
+.rus-vyzov-item-16 {
+  height: 892px;
+
+  background-image: url("./../../img/rus-vyzov/pic-16.png");
+  @include mediaBg() {
+    background-image: url("./../../img/rus-vyzov/pic-16@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 585px;
+  }
+
+  @include mobile {
+    width: 378px !important;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+.rus-vyzov-item-17 {
+  height: 892px;
+
+  background-image: url("./../../img/rus-vyzov/pic-17.png");
+  @include mediaBg() {
+    background-image: url("./../../img/rus-vyzov/pic-17@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 585px;
+  }
+
+  @include mobile {
+    width: 378px !important;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+.rus-vyzov-item-18 {
+  height: 892px;
+
+  background-image: url("./../../img/rus-vyzov/pic-18.png");
+  @include mediaBg() {
+    background-image: url("./../../img/rus-vyzov/pic-18@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 585px;
+  }
+
+  @include mobile {
+    width: 378px !important;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+.rus-vyzov-item-19 {
+  height: 892px;
+
+  background-image: url("./../../img/rus-vyzov/pic-19.png");
+  @include mediaBg() {
+    background-image: url("./../../img/rus-vyzov/pic-19@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 585px;
+  }
+
+  @include mobile {
+    width: 378px !important;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+.rus-vyzov-item-20 {
+  height: 892px;
+
+  background-image: url("./../../img/rus-vyzov/pic-20.png");
+  @include mediaBg() {
+    background-image: url("./../../img/rus-vyzov/pic-20@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 585px;
+  }
+
+  @include mobile {
+    width: 378px !important;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
