@@ -54,11 +54,11 @@
   }
 
   @include tablet {
-    width: 768px;
+    width: 768px !important;
     height: 585px;
   }
   @include mobile {
-    width: 379px;
+    width: 378px !important;
     height: 285px;
   }
   @include mobile-serpuxov-xs {
@@ -169,7 +169,7 @@
 
   @include tablet {
     width: 378px !important;
-    height: 512px;
+    height: 511px;
   }
 
   @include mobile {
@@ -192,7 +192,7 @@
 
   @include tablet {
     width: 378px !important;
-    height: 510px;
+    height: 511px;
   }
 
   @include mobile {
@@ -264,8 +264,7 @@
     background-image: url("./../../img/rus-vyzov/pic-11@2x.png");
   }
   @include tablet {
-    width: 378px !important;
-    height: 512px;
+    display: none;
   }
 
   @include mobile {
@@ -288,11 +287,11 @@
   }
 
   @include tablet {
-    width: 768px;
+    width: 768px !important;
     height: 585px;
   }
   @include mobile {
-    width: 379px;
+    width: 378px !important;
     height: 285px;
   }
   @include mobile-serpuxov-xs {

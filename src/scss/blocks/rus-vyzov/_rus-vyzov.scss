@@ -6,7 +6,25 @@
   }
 }
 
-.office-row-wrapper {
+.rus-vyzov-video {
+  width: 656px !important;
+  height: 1066px;
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+
+.rus-vyzov-row-wrapper {
   display: flex;
   flex-direction: column;
   margin-bottom: 34px;
@@ -60,7 +78,7 @@
   }
 }
 
-.office-main-row {
+.rus-vyzov-row {
   display: flex;
   justify-content: space-between;
   margin-bottom: 8px;
