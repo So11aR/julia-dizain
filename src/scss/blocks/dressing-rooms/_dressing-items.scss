@@ -1,0 +1,479 @@
+.dressing-item-1 {
+  height: 845px;
+
+  background-image: url("./../../img/dressing-rooms/pic-01.png");
+  @include mediaBg() {
+    background-image: url("./../../img/dressing-rooms/pic-01@2x.png");
+  }
+
+  @include tablet {
+    width: 772px !important;
+    height: 594px;
+    background-size: contain !important;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 284px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+
+}
+.dressing-item-2 {
+  height: 845px;
+
+  background-image: url("./../../img/dressing-rooms/pic-02.png");
+  @include mediaBg() {
+    background-image: url("./../../img/dressing-rooms/pic-02@2x.png");
+  }
+
+  @include tablet {
+    width: 772px !important;
+    height: 591px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 284px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+.dressing-item-3 {
+  height: 845px;
+
+  background-image: url("./../../img/dressing-rooms/pic-03.png");
+  @include mediaBg() {
+    background-image: url("./../../img/dressing-rooms/pic-03@2x.png");
+  }
+
+  @include tablet {
+    width: 772px !important;
+    height: 591px;
+  }
+  @include mobile {
+    width: 370px !important;
+    height: 284px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+
+}
+.dressing-item-4 {
+  width: 586px !important;
+  height: 410px;
+
+  background-image: url("./../../img/dressing-rooms/pic-04.png");
+  @include mediaBg() {
+    background-image: url("./../../img/dressing-rooms/pic-04@2x.png");
+  }
+
+  @include tablet {
+    width: 772px !important;
+    height: 594px;
+  }
+
+  @include mobile {
+    width: 378px !important;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+
+.dressing-item-5 {
+  width: 586px !important;
+  height: 410px;
+
+  background-image: url("./../../img/dressing-rooms/pic-05.png");
+  @include mediaBg() {
+    background-image: url("./../../img/dressing-rooms/pic-05@2x.png");
+  }
+
+  @include tablet {
+    width: 772px !important;
+    height: 594px;
+  }
+
+  @include mobile {
+    width: 378px !important;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+.dressing-item-6 {
+  height: 894px;
+
+  background-image: url("./../../img/dressing-rooms/pic-06.png");
+  @include mediaBg() {
+    background-image: url("./../../img/dressing-rooms/pic-06@2x.png");
+  }
+
+  @include tablet {
+    width: 772px !important;
+    height: 594px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 284px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+
+.dressing-item-7 {
+  height: 894px;
+
+  background-image: url("./../../img/dressing-rooms/pic-07.png");
+  @include mediaBg() {
+    background-image: url("./../../img/dressing-rooms/pic-07@2x.png");
+  }
+
+  @include tablet {
+    width: 772px !important;
+    height: 594px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 284px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+
+.dressing-item-8 {
+  height: 894px;
+
+  background-image: url("./../../img/dressing-rooms/pic-08.png");
+  @include mediaBg() {
+    background-image: url("./../../img/dressing-rooms/pic-08@2x.png");
+  }
+
+  @include tablet {
+    width: 772px !important;
+    height: 594px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 284px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+
+.dressing-item-9 {
+  height: 894px;
+
+  background-image: url("./../../img/dressing-rooms/pic-09.png");
+  @include mediaBg() {
+    background-image: url("./../../img/dressing-rooms/pic-09@2x.png");
+  }
+
+  @include tablet {
+    width: 772px !important;
+    height: 594px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 284px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+
+.dressing-item-10 {
+  width: 586px !important;
+  height: 410px;
+
+  background-image: url("./../../img/dressing-rooms/pic-10.png");
+  @include mediaBg() {
+    background-image: url("./../../img/dressing-rooms/pic-10@2x.png");
+  }
+
+  @include tablet {
+    width: 772px !important;
+    height: 594px;
+  }
+
+  @include mobile {
+    width: 378px !important;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+
+.dressing-item-11 {
+  width: 586px !important;
+  height: 410px;
+
+  background-image: url("./../../img/dressing-rooms/pic-11.png");
+  @include mediaBg() {
+    background-image: url("./../../img/dressing-rooms/pic-11@2x.png");
+  }
+
+  @include tablet {
+    width: 772px !important;
+    height: 594px;
+  }
+
+  @include mobile {
+    width: 378px !important;
+    height: 285px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+
+.dressing-item-12 {
+  height: 894px;
+
+  background-image: url("./../../img/dressing-rooms/pic-12.png");
+  @include mediaBg() {
+    background-image: url("./../../img/dressing-rooms/pic-12@2x.png");
+  }
+
+  @include tablet {
+    width: 772px !important;
+    height: 594px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 284px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+
+.dressing-item-13 {
+  height: 894px;
+
+  background-image: url("./../../img/dressing-rooms/pic-13.png");
+  @include mediaBg() {
+    background-image: url("./../../img/dressing-rooms/pic-13@2x.png");
+  }
+
+  @include tablet {
+    width: 772px !important;
+    height: 594px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 284px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+
+.dressing-item-14 {
+  height: 894px;
+
+  background-image: url("./../../img/dressing-rooms/pic-14.png");
+  @include mediaBg() {
+    background-image: url("./../../img/dressing-rooms/pic-14@2x.png");
+  }
+
+  @include tablet {
+    width: 772px !important;
+    height: 594px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 284px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+
+.dressing-item-15 {
+  width: 518px !important;
+  height: 494px;
+
+  background-image: url("./../../img/dressing-rooms/pic-15.png");
+  @include mediaBg() {
+    background-image: url("./../../img/dressing-rooms/pic-15@2x.png");
+  }
+
+  @include tablet {
+    width: 772px !important;
+    height: 594px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 284px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+
+.dressing-item-16 {
+  width: 518px !important;
+  height: 562px;
+
+  background-image: url("./../../img/dressing-rooms/pic-16.png");
+  @include mediaBg() {
+    background-image: url("./../../img/dressing-rooms/pic-16@2x.png");
+  }
+
+  @include tablet {
+    width: 772px !important;
+    height: 594px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 284px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+
+.dressing-item-17 {
+  width: 656px !important;
+  height: 1066px;
+
+  background-image: url("./../../img/dressing-rooms/pic-17.png");
+  @include mediaBg() {
+    background-image: url("./../../img/dressing-rooms/pic-17@2x.png");
+  }
+
+  @include tablet {
+    width: 772px !important;
+    height: 594px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 284px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+}
+
+.dressing-item-18 {
+  width: 389px !important;
+  height: 430px;
+
+  @include tablet {
+    width: 772px !important;
+    height: 594px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 284px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+  background-image: url("./../../img/dressing-rooms/pic-18.png");
+  @include mediaBg() {
+    background-image: url("./../../img/dressing-rooms/pic-18@2x.png");
+  }
+}
+
+.dressing-item-19 {
+  width: 389px !important;
+  height: 430px;
+
+  @include tablet {
+    width: 772px !important;
+    height: 594px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 284px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+  background-image: url("./../../img/dressing-rooms/pic-19.png");
+  @include mediaBg() {
+    background-image: url("./../../img/dressing-rooms/pic-19@2x.png");
+  }
+}
+
+.dressing-item-20 {
+  width: 389px !important;
+  height: 430px;
+
+  @include tablet {
+    width: 772px !important;
+    height: 594px;
+  }
+
+  @include mobile {
+    width: 370px !important;
+    height: 284px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 313px !important;
+    height: 231px;
+  }
+  background-image: url("./../../img/dressing-rooms/pic-20.png");
+  @include mediaBg() {
+    background-image: url("./../../img/dressing-rooms/pic-20@2x.png");
+  }
+}
