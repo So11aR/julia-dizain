@@ -100,6 +100,12 @@
     background-image: url('./../../img/portfolio/short/pic-17@2x.png');
   }
 }
+.portfolio-long-item-18 {
+  background-image: url('./../../img/portfolio/short/pic-18.png');
+  @include mediaBg() {
+    background-image: url('./../../img/portfolio/short/pic-18@2x.png');
+  }
+}
 
 
 
