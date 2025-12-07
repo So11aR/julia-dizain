@@ -1,0 +1,401 @@
+.miss-rossiya-item-1 {
+  max-width: 1160px;
+  height: 540px;
+
+  background-image: url("./../../img/miss-rossiya/pic-01.png");
+  @include mediaBg() {
+    background-image: url("./../../img/miss-rossiya/pic-01@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 372px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 304px !important;
+    height: 231px;
+  }
+
+}
+
+.miss-rossiya-item-2 {
+  max-width: 1160px;
+  height: 695px;
+
+  background-image: url("./../../img/miss-rossiya/pic-02.png");
+  @include mediaBg() {
+    background-image: url("./../../img/miss-rossiya/pic-02@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 372px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 304px !important;
+    height: 231px;
+  }
+}
+.miss-rossiya-item-3 {
+  max-width: 575px;
+  height: 695px;
+
+  background-image: url("./../../img/miss-rossiya/pic-03.png");
+  @include mediaBg() {
+    background-image: url("./../../img/miss-rossiya/pic-03@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+
+}
+
+.miss-rossiya-item-4 {
+  max-width: 575px;
+  height: 695px;
+
+  background-image: url("./../../img/miss-rossiya/pic-04.png");
+  @include mediaBg() {
+    background-image: url("./../../img/miss-rossiya/pic-04@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+
+}
+
+.miss-rossiya-item-5 {
+  max-width: 575px !important;
+  height: 695px;
+
+  background-image: url("./../../img/miss-rossiya/pic-05.png");
+  @include mediaBg() {
+    background-image: url("./../../img/miss-rossiya/pic-05@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+
+}
+
+.miss-rossiya-item-6 {
+  max-width: 575px !important;
+  height: 695px;
+
+  background-image: url("./../../img/miss-rossiya/pic-06.png");
+  @include mediaBg() {
+    background-image: url("./../../img/miss-rossiya/pic-06@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+
+}
+
+.miss-rossiya-item-7 {
+  max-width: 1160px;
+  height: 642px;
+
+  background-image: url("./../../img/miss-rossiya/pic-07.png");
+  @include mediaBg() {
+    background-image: url("./../../img/miss-rossiya/pic-07@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 372px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 304px !important;
+    height: 231px;
+  }
+
+}
+
+.miss-rossiya-item-8 {
+  max-width: 1160px;
+  height: 642px;
+
+  background-image: url("./../../img/miss-rossiya/pic-08.png");
+  @include mediaBg() {
+    background-image: url("./../../img/miss-rossiya/pic-08@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 372px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 304px !important;
+    height: 231px;
+  }
+
+}
+
+.miss-rossiya-item-9 {
+  max-width: 1160px;
+  height: 642px;
+
+  background-image: url("./../../img/miss-rossiya/pic-09.png");
+  @include mediaBg() {
+    background-image: url("./../../img/miss-rossiya/pic-09@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 372px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 304px !important;
+    height: 231px;
+  }
+
+}
+
+.miss-rossiya-item-10 {
+  max-width: 1160px;
+  height: 642px;
+
+  background-image: url("./../../img/miss-rossiya/pic-10.png");
+  @include mediaBg() {
+    background-image: url("./../../img/miss-rossiya/pic-10@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 372px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 304px !important;
+    height: 231px;
+  }
+
+}
+
+.miss-rossiya-item-11 {
+  max-width: 575px !important;
+  height: 695px;
+
+  background-image: url("./../../img/miss-rossiya/pic-11.png");
+  @include mediaBg() {
+    background-image: url("./../../img/miss-rossiya/pic-11@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+
+}
+
+.miss-rossiya-item-12 {
+  max-width: 575px !important;
+  height: 695px;
+
+  background-image: url("./../../img/miss-rossiya/pic-12.png");
+  @include mediaBg() {
+    background-image: url("./../../img/miss-rossiya/pic-12@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+
+}
+
+.miss-rossiya-item-13 {
+  max-width: 1160px;
+  height: 643px;
+
+  background-image: url("./../../img/miss-rossiya/pic-13.png");
+  @include mediaBg() {
+    background-image: url("./../../img/miss-rossiya/pic-13@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 372px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 304px !important;
+    height: 231px;
+  }
+
+}
+
+.miss-rossiya-item-14 {
+  max-width: 1160px;
+  height: 643px;
+
+  background-image: url("./../../img/miss-rossiya/pic-14.png");
+  @include mediaBg() {
+    background-image: url("./../../img/miss-rossiya/pic-14@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 372px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 304px !important;
+    height: 231px;
+  }
+
+}
+
+.miss-rossiya-item-15 {
+  max-width: 1160px;
+  height: 643px;
+
+  background-image: url("./../../img/miss-rossiya/pic-15.png");
+  @include mediaBg() {
+    background-image: url("./../../img/miss-rossiya/pic-15@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 372px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 304px !important;
+    height: 231px;
+  }
+
+}
+
+.miss-rossiya-item-16 {
+  max-width: 1160px;
+  height: 686px;
+
+  background-image: url("./../../img/miss-rossiya/pic-16.png");
+  @include mediaBg() {
+    background-image: url("./../../img/miss-rossiya/pic-16@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 372px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 304px !important;
+    height: 231px;
+  }
+
+}

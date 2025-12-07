@@ -1,5 +1,6 @@
 .koncepciya-otelya-v-hibinah-item-1 {
-  height: 770px;
+  max-width: 1160px;
+  height: 892px;
 
   background-image: url("./../../img/koncepciya-otelya-v-hibinah/pic-01.png");
   @include mediaBg() {
@@ -12,18 +13,20 @@
   }
 
   @include mobile {
-    width: 370px !important;
+    width: 372px !important;
     height: 285px;
   }
 
   @include mobile-serpuxov-xs {
-    width: 313px !important;
+    width: 304px !important;
     height: 231px;
   }
 
 }
+
 .koncepciya-otelya-v-hibinah-item-2 {
-  height: 770px;
+  max-width: 1160px;
+  height: 695px;
 
   background-image: url("./../../img/koncepciya-otelya-v-hibinah/pic-02.png");
   @include mediaBg() {
@@ -36,17 +39,18 @@
   }
 
   @include mobile {
-    width: 370px !important;
+    width: 372px !important;
     height: 285px;
   }
 
   @include mobile-serpuxov-xs {
-    width: 313px !important;
+    width: 304px !important;
     height: 231px;
   }
 }
 .koncepciya-otelya-v-hibinah-item-3 {
-  height: 770px;
+  max-width: 575px;
+  height: 695px;
 
   background-image: url("./../../img/koncepciya-otelya-v-hibinah/pic-03.png");
   @include mediaBg() {
@@ -54,28 +58,99 @@
   }
 
   @include tablet {
-    width: 768px !important;
-    height: 569px;
+    width: 378px !important;
+    height: 511px;
   }
-
   @include mobile {
-    width: 370px !important;
-    height: 285px;
+    width: 184px !important;
+    height: 249px;
   }
-
   @include mobile-serpuxov-xs {
-    width: 313px !important;
-    height: 231px;
+    width: 150px !important;
+    height: 186px;
   }
 
 }
 
 .koncepciya-otelya-v-hibinah-item-4 {
-  height: 770px;
+  max-width: 575px;
+  height: 695px;
 
   background-image: url("./../../img/koncepciya-otelya-v-hibinah/pic-04.png");
   @include mediaBg() {
     background-image: url("./../../img/koncepciya-otelya-v-hibinah/pic-04@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+
+}
+
+.koncepciya-otelya-v-hibinah-item-5 {
+  max-width: 575px !important;
+  height: 695px;
+
+  background-image: url("./../../img/koncepciya-otelya-v-hibinah/pic-05.png");
+  @include mediaBg() {
+    background-image: url("./../../img/koncepciya-otelya-v-hibinah/pic-05@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+
+}
+
+.koncepciya-otelya-v-hibinah-item-6 {
+  max-width: 575px !important;
+  height: 695px;
+
+  background-image: url("./../../img/koncepciya-otelya-v-hibinah/pic-06.png");
+  @include mediaBg() {
+    background-image: url("./../../img/koncepciya-otelya-v-hibinah/pic-06@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+
+}
+
+.koncepciya-otelya-v-hibinah-item-7 {
+  max-width: 1160px;
+  height: 695px;
+
+  background-image: url("./../../img/koncepciya-otelya-v-hibinah/pic-07.png");
+  @include mediaBg() {
+    background-image: url("./../../img/koncepciya-otelya-v-hibinah/pic-07@2x.png");
   }
 
   @include tablet {
@@ -84,12 +159,12 @@
   }
 
   @include mobile {
-    width: 370px !important;
+    width: 372px !important;
     height: 285px;
   }
 
   @include mobile-serpuxov-xs {
-    width: 313px !important;
+    width: 304px !important;
     height: 231px;
   }
 

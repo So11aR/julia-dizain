@@ -113,6 +113,13 @@
   }
 }
 
+.portfolio-long-item-20 {
+  background-image: url('./../../img/portfolio/short/pic-20.png');
+  @include mediaBg() {
+    background-image: url('./../../img/portfolio/short/pic-20@2x.png');
+  }
+}
+
 
 
 .portfolio-short-item-1 {
