@@ -74,429 +74,551 @@
 		</div>
 
 		<main class="portfolio-main">
-			<!-- Фильтрация -->
+			<!-- Заголовок Проекты -->
+			<div class="portfolio-header">
+				<div class="container">
+					<h1 class="portfolio-title">Проекты</h1>
+				</div>
+			</div>
+			<!-- // Заголовок Проекты -->
 
+			<!-- Фильтрация -->
+			<div class="portfolio-filters">
+				<div class="container">
+					<!-- Заголовок фильтров для мобильной версии -->
+					<div class="filters-mobile-header">
+						<div class="filters-mobile-title">Фильтры</div>
+						<div class="filter-line-mobile"></div>
+						<div class="filters-toggle">
+							<svg class="filters-toggle-icon" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+					</div>
+
+					<!-- Контейнер фильтров с классом для дропдауна -->
+					<div class="portfolio-filters-wrapper filters-dropdown">
+						<div class="filter-group">
+							<div class="filter-label">Отображение</div>
+							<div class="filter-line"></div>
+							<div class="filter-display">
+								<a href="#" class="display-option active">Плитка</a>
+								<span class="display-option disabled">Список</span>
+							</div>
+						</div>
+
+						<div class="filter-group">
+							<div class="filter-label">Направления</div>
+							<div class="filter-line"></div>
+							<div class="filter-links" id="direction-filters">
+								<a href="#" class="filter-link active" data-filter="all">Все</a>
+								<a href="#" class="filter-link" data-filter="analysis">Комплексный анализ и&#160;исследования</a>
+								<a href="#" class="filter-link" data-filter="masterplan">Мастерпланирование и&#160;стратегия развития</a>
+								<a href="#" class="filter-link" data-filter="architecture">Архитектурные проекты зданий и&#160;сооружений</a>
+								<a href="#" class="filter-link" data-filter="bim">Генеральное проектирование и&#160;BIM&#160;&#8212; моделирование</a>
+								<a href="#" class="filter-link" data-filter="landscape">Ландшафт и&#160;благоустройство</a>
+								<a href="#" class="filter-link" data-filter="interior-design">Проектирование интерьера</a>
+								<a href="#" class="filter-link" data-filter="author">Авторское сопровождение</a>
+								<a href="#" class="filter-link" data-filter="decor">Декорирование</a>
+								<a href="#" class="filter-link" data-filter="furniture">Производство мягкой мебели</a>
+								<a href="#" class="filter-link" data-filter="studio">Создание студийных декораций</a>
+								<a href="#" class="filter-link" data-filter="3d">3D визуализация и&#160;анимация</a>
+							</div>
+						</div>
+
+						<div class="filter-group">
+							<div class="filter-label">Категории</div>
+							<div class="filter-line"></div>
+							<div class="filter-links" id="category-filters">
+								<a href="#" class="filter-link active" data-category="all">Все</a>
+								<a href="#" class="filter-link" data-category="territorial">Территориальное планирование</a>
+								<a href="#" class="filter-link" data-category="studio-decor">Создание студийных декораций</a>
+								<a href="#" class="filter-link" data-category="decor-design">Проектирование декораций</a>
+								<a href="#" class="filter-link" data-category="interiors">Интерьеры</a>
+								<a href="#" class="filter-link" data-category="architecture">Архитектура</a>
+								<a href="#" class="filter-link" data-category="landscape-design">Ландшафтное проектирование</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 			<!-- // Фильтрация -->
 
 			<div class="container">
-				<div class="portfolio-wrapper-desktop">
-					<!-- 3 элемента -->
-					<div class="portfolio-main-row-long">
-						<a href="miss-rossiya.html" class="portfolio-main-row-long__item portfolio-long-item-20">
-							<span class="portfolio-main-row-long__item-text">
-								Национальный конкурс &#171;Мисс Россия&#187; 2025
-							</span>
-						</a>
+				<!-- Единая адаптивная сетка -->
+				<div class="portfolio-wrapper">
+					<a href="miss-rossiya.html" class="portfolio-item portfolio-long-item-20" data-direction="decor studio" data-category="decor-design studio-decor">
+						<span class="portfolio-item-text">
+							Национальный конкурс &#171;Мисс Россия&#187; 2025&#160;г.
+						</span>
+					</a>
 
-						<a href="koncepciya-otelya-v-hibinah.html" class="portfolio-main-row-long__item portfolio-long-item-19">
-							<span class="portfolio-main-row-long__item-text">
-								Концепция отеля в&#160;Хибинах Мурманская область
-							</span>
-						</a>
+					<a
+						href="koncepciya-otelya-v-hibinah.html"
+						class="portfolio-item portfolio-long-item-19"
+						data-direction="architecture interior-design"
+						data-category="territorial architecture interiors"
+					>
+						<span class="portfolio-item-text">
+							Концепция отеля в&#160;Хибинах Мурманская область
+						</span>
+					</a>
 
-						<a href="stadion-iskra.html" class="portfolio-main-row-long__item portfolio-long-item-18">
-							<span class="portfolio-main-row-long__item-text">
-								Эскиз благоустройства территории у&#160;стадиона &#171;Искра&#187;
-							</span>
-						</a>
-					</div>
-					<!-- // 3 элемента -->
+					<a href="stadion-iskra.html" class="portfolio-item portfolio-long-item-18" data-direction="landscape masterplan" data-category="territorial landscape-design">
+						<span class="portfolio-item-text">
+							Эскиз благоустройства территории у&#160;стадиона &#171;Искра&#187;
+						</span>
+					</a>
 
-					<!-- 3 элемента -->
-					<div class="portfolio-main-row-long">
-						<a href="game.html" class="portfolio-main-row-long__item portfolio-long-item-15">
-							<span class="portfolio-main-row-long__item-text">
-								Игры без правил
-							</span>
-						</a>
+					<a href="game.html" class="portfolio-item portfolio-long-item-15" data-direction="landscape masterplan studio" data-category="studio-decor">
+						<span class="portfolio-item-text">
+							Игры без правил
+						</span>
+					</a>
 
-						<a href="tnt-ruletka.html" class="portfolio-main-row-long__item portfolio-long-item-16">
-							<span class="portfolio-main-row-long__item-text">
-								Стендап рулетка ТНТ
-							</span>
-						</a>
+					<a href="tnt-ruletka.html" class="portfolio-item portfolio-long-item-16" data-direction="studio" data-category="studio-decor">
+						<span class="portfolio-item-text">
+							Стендап рулетка ТНТ
+						</span>
+					</a>
 
-						<a href="russkij-vyzov-2025.html" class="portfolio-main-row-long__item portfolio-long-item-17">
-							<span class="portfolio-main-row-long__item-text">
-								Декорации для турнира &#171;Русский Вызов 2025&#187;
-							</span>
-						</a>
-					</div>
-					<!-- // 3 элемента -->
+					<a href="russkij-vyzov-2025.html" class="portfolio-item portfolio-long-item-17" data-direction="studio decor" data-category="decor-design studio-decor">
+						<span class="portfolio-item-text">
+							Декорации для турнира &#171;Русский Вызов 2025&#187;
+						</span>
+					</a>
 
-					<!-- 3 элемента -->
-					<div class="portfolio-main-row-long">
-						<a href="serpuxov.html" class="portfolio-main-row-long__item portfolio-long-item-1">
-							<span class="portfolio-main-row-long__item-text">
-								Жилой дом, г.&#160;Серпухов
-							</span>
-						</a>
+					<a href="serpuxov.html" class="portfolio-item portfolio-long-item-1" data-direction="architecture" data-category="architecture interiors">
+						<span class="portfolio-item-text">
+							Жилой дом, г.&#160;Серпухов
+						</span>
+					</a>
 
-						<a href="house-riverclub.html" class="portfolio-main-row-long__item portfolio-long-item-2">
-							<span class="portfolio-main-row-long__item-text">
-								Жилой дом, пос.&#160;Ривер Клаб
-							</span>
-						</a>
+					<a href="house-riverclub.html" class="portfolio-item portfolio-long-item-2" data-direction="architecture" data-category="architecture interiors landscape-design">
+						<span class="portfolio-item-text">
+							Жилой дом, пос.&#160;Ривер Клаб
+						</span>
+					</a>
 
-						<a href="office.html" class="portfolio-main-row-long__item portfolio-long-item-3">
-							<span class="portfolio-main-row-long__item-text">
-								Офис
-							</span>
-						</a>
-					</div>
-					<!-- // 3 элемента -->
+					<a href="office.html" class="portfolio-item portfolio-long-item-3" data-direction="interior-design" data-category="interiors">
+						<span class="portfolio-item-text">
+							Офис
+						</span>
+					</a>
 
-					<!-- ------------------ -->
+					<a href="magadan.html" class="portfolio-item portfolio-short-item-1" data-direction="architecture" data-category="architecture">
+						<span class="portfolio-item-text">
+							Жилой дом, г.&#160;Магадан
+						</span>
+					</a>
 
-					<!-- 3 элемента -->
-					<div class="portfolio-main-row-long">
-						<a href="magadan.html" class="portfolio-main-row-long__item portfolio-short-item-1">
-							<span class="portfolio-main-row-long__item-text">
-								Жилой дом, г.&#160;Магадан
-							</span>
-						</a>
+					<a href="riverclub-house-2.html" class="portfolio-item portfolio-short-item-2" data-direction="architecture" data-category="architecture">
+						<span class="portfolio-item-text">
+							Жилой дом, пос.&#160;Ривер Клаб
+						</span>
+					</a>
 
-						<a href="riverclub-house-2.html" class="portfolio-main-row-long__item portfolio-short-item-2">
-							<span class="portfolio-main-row-long__item-text">
-								Жилой дом, пос.&#160;Ривер Клаб
-							</span>
-						</a>
+					<a href="masterskaya.html" class="portfolio-item portfolio-long-item-4" data-direction="interior-design" data-category="interiors">
+						<span class="portfolio-item-text">
+							Мастерская
+						</span>
+					</a>
 
-						<a href="masterskaya.html" class="portfolio-main-row-long__item portfolio-long-item-4">
-							<span class="portfolio-main-row-long__item-text">
-								Мастерская
-							</span>
-						</a>
-					</div>
-					<!-- // 2 элемента -->
+					<a href="gk-sedmoe-nebo.html" class="portfolio-item portfolio-long-item-5" data-direction="interior-design" data-category="interiors">
+						<span class="portfolio-item-text">
+							Квартира, ЖК&#160;Седьмое небо
+						</span>
+					</a>
 
-					<!-- ------------------ -->
+					<a href="guest-house-riverclub.html" class="portfolio-item portfolio-long-item-6" data-direction="architecture" data-category="architecture interiors">
+						<span class="portfolio-item-text">
+							Гостевой дом, пос.&#160;Ривер Клаб
+						</span>
+					</a>
 
-					<!-- 3 элемента -->
-					<div class="portfolio-main-row-long">
-						<a href="gk-sedmoe-nebo.html" class="portfolio-main-row-long__item portfolio-long-item-5">
-							<span class="portfolio-main-row-long__item-text">
-								Квартира, ЖК&#160;Седьмое небо
-							</span>
-						</a>
+					<a href="belgrad-guests.html" class="portfolio-item portfolio-long-item-7" data-direction="architecture interior-design" data-category="architecture interiors">
+						<span class="portfolio-item-text">
+							Гостиница &#171;Белград&#187;
+						</span>
+					</a>
 
-						<a href="guest-house-riverclub.html" class="portfolio-main-row-long__item portfolio-long-item-6">
-							<span class="portfolio-main-row-long__item-text">
-								Гостевой дом, пос.&#160;Ривер Клаб
-							</span>
-						</a>
+					<a href="naves.html" class="portfolio-item portfolio-long-item-8" data-direction="architecture" data-category="architecture">
+						<span class="portfolio-item-text">
+							Навес для авто
+						</span>
+					</a>
 
-						<a href="belgrad-guests.html" class="portfolio-main-row-long__item portfolio-long-item-7">
-							<span class="portfolio-main-row-long__item-text">
-								Гостиница &#171;Белград&#187;
-							</span>
-						</a>
-					</div>
-					<!-- // 3 элемента -->
+					<a href="tumen-filarmonia.html" class="portfolio-item portfolio-short-item-3" data-direction="architecture" data-category="architecture">
+						<span class="portfolio-item-text">
+							Реконструкция Тюменской областной Филармонии
+						</span>
+					</a>
 
-					<!-- ------------------ -->
+					<a href="avtosalon.html" class="portfolio-item portfolio-short-item-4" data-direction="interior-design" data-category="architecture interiors">
+						<span class="portfolio-item-text">
+							Автосалон
+						</span>
+					</a>
 
-					<!-- 2 элемента -->
-					<div class="portfolio-main-row-long">
-						<a href="naves.html" class="portfolio-main-row-long__item portfolio-long-item-8">
-							<span class="portfolio-main-row-long__item-text">
-								Навес для авто
-							</span>
-						</a>
+					<a href="studia.html" class="portfolio-item portfolio-long-item-9" data-direction="studio" data-category="decor-design studio-decor">
+						<span class="portfolio-item-text">
+							Студия ТНТ
+						</span>
+					</a>
 
-						<a href="tumen-filarmonia.html" class="portfolio-main-row-long__item portfolio-short-item-3">
-							<span class="portfolio-main-row-long__item-text">
-								Реконструкция Тюменской областной Филармонии
-							</span>
-						</a>
+					<a href="obi.html" class="portfolio-item portfolio-long-item-10" data-direction="interior-design" data-category="architecture interiors">
+						<span class="portfolio-item-text">
+							Магазин Оби
+						</span>
+					</a>
 
-						<a href="avtosalon.html" class="portfolio-main-row-long__item portfolio-short-item-4">
-							<span class="portfolio-main-row-long__item-text">
-								Автосалон
-							</span>
-						</a>
-					</div>
-					<!-- // 2 элемента -->
+					<a href="riverclub-house-3.html" class="portfolio-item portfolio-long-item-11" data-direction="architecture" data-category="architecture">
+						<span class="portfolio-item-text">
+							Жилой дом, пос.&#160;Ривер Клаб
+						</span>
+					</a>
 
-					<!-- ------------------ -->
-
-					<!-- 3 элемента -->
-					<div class="portfolio-main-row-long">
-						<a href="studia.html" class="portfolio-main-row-long__item portfolio-long-item-9">
-							<span class="portfolio-main-row-long__item-text">
-								Студия ТНТ
-							</span>
-						</a>
-
-						<a href="obi.html" class="portfolio-main-row-long__item portfolio-long-item-10">
-							<span class="portfolio-main-row-long__item-text">
-								Магазин Оби
-							</span>
-						</a>
-
-						<a href="riverclub-house-3.html" class="portfolio-main-row-long__item portfolio-long-item-11">
-							<span class="portfolio-main-row-long__item-text">
-								Жилой дом, пос.&#160;Ривер Клаб
-							</span>
-						</a>
-					</div>
-					<!-- // 3 элемента -->
-
-					<!-- ------------------ -->
-
-					<!-- 2 элемента -->
-					<div class="portfolio-main-row-short">
-						<div class="portfolio-main-row-short__item portfolio-short-item-5">
-							<span class="portfolio-main-row-short__item-text">
-								Агропромышленный комплекс
-							</span>
-						</div>
-
-						<div class="portfolio-main-row-short__item portfolio-short-item-6">
-							<span class="portfolio-main-row-short__item-text">
-								Мастер план
-							</span>
-						</div>
-					</div>
-					<!-- // 2 элемента -->
-
-					<!-- ------------------ -->
-
-					<!-- 3 элемента -->
-					<div class="portfolio-main-row-short">
-						<a href="dressing-rooms.html" class="portfolio-main-row-short__item portfolio-long-item-12">
-							<span class="portfolio-main-row-long__item-text">
-								Гардеробные комнаты
-							</span>
-						</a>
-
-						<div class="portfolio-main-row-short__item portfolio-long-item-13">
-							<span class="portfolio-main-row-long__item-text">
-								Ресторан Артишок
-							</span>
-						</div>
+					<div class="portfolio-item portfolio-short-item-5" data-direction="masterplan" data-category="architecture territorial">
+						<span class="portfolio-item-text">
+							Агропромышленный комплекс
+						</span>
 					</div>
 
-					<!-- // 3 элемента -->
-
-					<!-- ------------------ -->
-
-					<!-- 2 элемента -->
-					<div class="portfolio-main-row-short">
-						<a href="klaster.html" class="portfolio-main-row-short__item portfolio-short-item-7">
-							<span class="portfolio-main-row-short__item-text">
-								Производственный кластер
-							</span>
-						</a>
-
-						<a href="baza-otdyha.html" class="portfolio-main-row-short__item portfolio-short-item-8">
-							<span class="portfolio-main-row-short__item-text">
-								База отдыха
-							</span>
-						</a>
+					<div class="portfolio-item portfolio-short-item-6" data-direction="masterplan" data-category="territorial">
+						<span class="portfolio-item-text">
+							Мастер план
+						</span>
 					</div>
-					<!-- // 2 элемента -->
+
+					<a href="dressing-rooms.html" class="portfolio-item portfolio-long-item-12" data-direction="interior-design" data-category="interiors">
+						<span class="portfolio-item-text">
+							Гардеробные комнаты
+						</span>
+					</a>
+
+					<div class="portfolio-item portfolio-long-item-13" data-direction="interior-design" data-category="interiors">
+						<span class="portfolio-item-text">
+							Ресторан Артишок
+						</span>
+					</div>
+
+					<a href="klaster.html" class="portfolio-item portfolio-short-item-7" data-direction="masterplan" data-category="territorial architecture">
+						<span class="portfolio-item-text">
+							Производственный кластер
+						</span>
+					</a>
+
+					<a
+						href="baza-otdyha.html"
+						class="portfolio-item portfolio-short-item-8"
+						data-direction="architecture landscape"
+						data-category="architecture territorial landscape-design"
+					>
+						<span class="portfolio-item-text">
+							База отдыха
+						</span>
+					</a>
+
+					<a href="ledoviy.html" class="portfolio-item portfolio-long-item-14" data-direction="architecture" data-category="architecture">
+						<span class="portfolio-item-text">
+							Реконструкция Ледового дворца г.&#160;Тюмень
+						</span>
+					</a>
 				</div>
 
-				<div class="portfolio-wrapper-tablet">
-					<div class="portfolio-main-row-tablet">
-						<a href="miss-rossiya.html" class="portfolio-main-row-tablet__item portfolio-long-item-20">
-							<span class="portfolio-main-row-tablet__item-text">
-								Национальный конкурс &#171;Мисс Россия&#187; 2025
-							</span>
-						</a>
-
-						<a href="koncepciya-otelya-v-hibinah.html" class="portfolio-main-row-tablet__item portfolio-long-item-19">
-							<span class="portfolio-main-row-tablet__item-text">
-								Концепция отеля в&#160;Хибинах Мурманская область
-							</span>
-						</a>
-					</div>
-
-					<div class="portfolio-main-row-tablet">
-						<a href="stadion-iskra.html" class="portfolio-main-row-tablet__item portfolio-long-item-18">
-							<span class="portfolio-main-row-tablet__item-text">
-								Эскиз благоустройства территории у&#160;стадиона &#171;Искра&#187;
-							</span>
-						</a>
-
-						<a href="game.html" class="portfolio-main-row-tablet__item portfolio-long-item-15">
-							<span class="portfolio-main-row-tablet__item-text">
-								Игры без правил
-							</span>
-						</a>
-					</div>
-
-					<div class="portfolio-main-row-tablet">
-						<a href="tnt-ruletka.html" class="portfolio-main-row-tablet__item portfolio-long-item-16">
-							<span class="portfolio-main-row-tablet__item-text">
-								Стендап рулетка ТНТ
-							</span>
-						</a>
-
-						<a href="russkij-vyzov-2025.html" class="portfolio-main-row-tablet__item portfolio-long-item-17">
-							<span class="portfolio-main-row-tablet__item-text">
-								Декорации для турнира &#171;Русский Вызов 2025&#187;
-							</span>
-						</a>
-					</div>
-
-					<div class="portfolio-main-row-tablet">
-						<a href="serpuxov.html" class="portfolio-main-row-tablet__item portfolio-long-item-1">
-							<span class="portfolio-main-row-tablet__item-text">
-								Жилой дом, г.&#160;Серпухов
-							</span>
-						</a>
-
-						<a href="house-riverclub.html" class="portfolio-main-row-tablet__item portfolio-long-item-2">
-							<span class="portfolio-main-row-tablet__item-text">
-								Жилой дом, пос.&#160;Ривер Клаб
-							</span>
-						</a>
-					</div>
-
-					<div class="portfolio-main-row-tablet">
-						<a href="office.html" class="portfolio-main-row-tablet__item portfolio-long-item-3">
-							<span class="portfolio-main-row-tablet__item-text">
-								Офис
-							</span>
-						</a>
-
-						<a href="riverclub-house-2.html" class="portfolio-main-row-tablet__item portfolio-short-item-2">
-							<span class="portfolio-main-row-tablet__item-text">
-								Жилой дом, пос.&#160;Ривер Клаб
-							</span>
-						</a>
-					</div>
-
-					<div class="portfolio-main-row-tablet">
-						<a href="magadan.html" class="portfolio-main-row-tablet__item portfolio-short-item-1">
-							<span class="portfolio-main-row-tablet__item-text">
-								Жилой дом, г.&#160;Магадан
-							</span>
-						</a>
-
-						<a href="klaster.html" class="portfolio-main-row-tablet__item portfolio-short-item-7">
-							<span class="portfolio-main-row-tablet__item-text">
-								Производственный кластер
-							</span>
-						</a>
-					</div>
-
-					<div class="portfolio-main-row-tablet">
-						<a href="masterskaya.html" class="portfolio-main-row-tablet__item portfolio-long-item-4">
-							<span class="portfolio-main-row-tablet__item-text">
-								Мастерская
-							</span>
-						</a>
-
-						<a href="gk-sedmoe-nebo.html" class="portfolio-main-row-tablet__item portfolio-long-item-5">
-							<span class="portfolio-main-row-tablet__item-text">
-								Квартира, ЖК&#160;Седьмое небо
-							</span>
-						</a>
-					</div>
-
-					<div class="portfolio-main-row-tablet">
-						<a href="guest-house-riverclub.html" class="portfolio-main-row-tablet__item portfolio-long-item-6">
-							<span class="portfolio-main-row-tablet__item-text">
-								Гостевой дом, пос.&#160;Ривер Клаб
-							</span>
-						</a>
-
-						<a href="naves.html" class="portfolio-main-row-tablet__item portfolio-long-item-8">
-							<span class="portfolio-main-row-tablet__item-text">
-								Навес для авто
-							</span>
-						</a>
-					</div>
-
-					<div class="portfolio-main-row-tablet">
-						<a href="tumen-filarmonia.html" class="portfolio-main-row-tablet__item portfolio-short-item-3">
-							<span class="portfolio-main-row-tablet__item-text">
-								Реконструкция Тюменской областной Филармонии
-							</span>
-						</a>
-
-						<a href="avtosalon.html" class="portfolio-main-row-tablet__item portfolio-short-item-4">
-							<span class="portfolio-main-row-tablet__item-text">
-								Автосалон
-							</span>
-						</a>
-					</div>
-
-					<div class="portfolio-main-row-tablet">
-						<a href="belgrad-guests.html" class="portfolio-main-row-tablet__item portfolio-long-item-7">
-							<span class="portfolio-main-row-tablet__item-text">
-								Гостиница &#171;Белград&#187;
-							</span>
-						</a>
-
-						<div class="portfolio-main-row-tablet__item portfolio-long-item-13">
-							<span class="portfolio-main-row-tablet__item-text">
-								Ресторан Артишок
-							</span>
-						</div>
-					</div>
-
-					<div class="portfolio-main-row-tablet">
-						<a href="studia.html" class="portfolio-main-row-tablet__item portfolio-long-item-9">
-							<span class="portfolio-main-row-tablet__item-text">
-								Студия ТНТ
-							</span>
-						</a>
-
-						<div class="portfolio-main-row-tablet__item portfolio-short-item-5">
-							<span class="portfolio-main-row-tablet__item-text">
-								Агропромышленный комплекс
-							</span>
-						</div>
-					</div>
-
-					<div class="portfolio-main-row-tablet">
-						<div class="portfolio-main-row-tablet__item portfolio-short-item-6">
-							<span class="portfolio-main-row-tablet__item-text">
-								Мастер план
-							</span>
-						</div>
-
-						<a href="dressing-rooms.html" class="portfolio-main-row-long__item portfolio-long-item-12">
-							<span class="portfolio-main-row-long__item-text">
-								Гардеробные комнаты
-							</span>
-						</a>
-					</div>
-
-					<div class="portfolio-main-row-tablet">
-						<a href="riverclub-house-3.html" class="portfolio-main-row-tablet__item portfolio-long-item-11">
-							<span class="portfolio-main-row-tablet__item-text">
-								Жилой дом, пос.&#160;Ривер Клаб
-							</span>
-						</a>
-
-						<a href="obi.html" class="portfolio-main-row-tablet__item portfolio-long-item-10">
-							<span class="portfolio-main-row-tablet__item-text">
-								Магазин Оби
-							</span>
-						</a>
-					</div>
-
-					<div class="portfolio-main-row-tablet">
-						<a href="baza-otdyha.html" class="portfolio-main-row-tablet__item portfolio-short-item-8">
-							<span class="portfolio-main-row-tablet__item-text">
-								База отдыха
-							</span>
-						</a>
-
-						<a href="ledoviy.html" class="portfolio-main-row-tablet__item portfolio-long-item-14">
-							<span class="portfolio-main-row-tablet__item-text">
-								Реконструкция Ледового дворца г.&#160;Тюмень
-							</span>
-						</a>
+				<!-- Блок с сообщением об отсутствии результатов -->
+				<div class="portfolio-no-results" id="portfolio-no-results">
+					<div class="no-results-content">
+						<div class="no-results-title">Ничего не&#160;нашлось</div>
+						<div class="no-results-text">Попробуйте изменить параметры фильтрации</div>
+						<button class="no-results-reset" id="reset-filters-btn">Сбросить фильтры</button>
 					</div>
 				</div>
 			</div>
 		</main>
+
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+				// Получаем все элементы фильтров (ссылки)
+				const directionFilterLinks = document.querySelectorAll("#direction-filters .filter-link");
+				const categoryFilterLinks = document.querySelectorAll("#category-filters .filter-link");
+
+				// Получаем все карточки проектов
+				const portfolioItems = document.querySelectorAll(".portfolio-item");
+
+				// Получаем блок с сообщением об отсутствии результатов
+				const noResultsBlock = document.getElementById("portfolio-no-results");
+
+				// Кнопка сброса фильтров
+				const resetFiltersBtn = document.getElementById("reset-filters-btn");
+
+				// Текущие активные фильтры
+				let activeDirection = "all";
+				let activeCategory = "all";
+
+				// Функция для закрытия дропдауна
+				function closeFiltersDropdown() {
+					const filtersDropdown = document.querySelector(".filters-dropdown");
+					const filtersToggleIcon = document.querySelector(".filters-toggle-icon");
+
+					if (filtersDropdown) {
+						filtersDropdown.classList.remove("active");
+					}
+
+					if (filtersToggleIcon) {
+						filtersToggleIcon.style.transform = "rotate(0deg)";
+					}
+				}
+
+				// Функция для показа/скрытия сообщения об отсутствии результатов
+				function updateNoResultsMessage(visibleItemsCount) {
+					if (noResultsBlock) {
+						if (visibleItemsCount === 0) {
+							// Если нет видимых карточек, показываем сообщение
+							noResultsBlock.style.display = "block";
+							// Скрываем сетку с карточками
+							document.querySelector(".portfolio-wrapper").style.display = "none";
+						} else {
+							// Если есть видимые карточки, скрываем сообщение
+							noResultsBlock.style.display = "none";
+							// Показываем сетку с карточками
+							document.querySelector(".portfolio-wrapper").style.display = "grid";
+						}
+					}
+				}
+
+				// Функция для фильтрации карточек
+				function filterPortfolio() {
+					console.log("Фильтрация:", activeDirection, activeCategory);
+
+					let visibleItemsCount = 0;
+
+					portfolioItems.forEach(item => {
+						// Получаем значения фильтров карточки
+						const itemDirections = item.getAttribute("data-direction") || "";
+						const itemCategories = item.getAttribute("data-category") || "";
+
+						// Проверяем соответствие направлению
+						const directionMatch = activeDirection === "all" || itemDirections.includes(activeDirection);
+
+						// Проверяем соответствие категории
+						const categoryMatch = activeCategory === "all" || itemCategories.includes(activeCategory);
+
+						// Показываем карточку, если она соответствует обоим фильтрам
+						if (directionMatch && categoryMatch) {
+							item.style.display = "flex";
+							item.classList.remove("portfolio-hidden");
+							item.classList.add("portfolio-visible");
+							visibleItemsCount++;
+						} else {
+							item.style.display = "none";
+							item.classList.add("portfolio-hidden");
+							item.classList.remove("portfolio-visible");
+						}
+					});
+
+					// Обновляем сообщение об отсутствии результатов
+					updateNoResultsMessage(visibleItemsCount);
+
+					// Закрываем дропдаун после применения фильтра (только на мобильной версии)
+					if (window.innerWidth <= 1220) {
+						closeFiltersDropdown();
+					}
+
+					// Если нет результатов, логируем информацию
+					if (visibleItemsCount === 0) {
+						console.log("Нет результатов для фильтров:", {
+							direction: activeDirection,
+							category: activeCategory,
+						});
+					}
+
+					return visibleItemsCount;
+				}
+
+				// Функция для сброса всех фильтров
+				function resetAllFilters() {
+					// Сброс направлений
+					directionFilterLinks.forEach(link => {
+						if (link.getAttribute("data-filter") === "all") {
+							link.classList.add("active");
+							activeDirection = "all";
+						} else {
+							link.classList.remove("active");
+						}
+					});
+
+					// Сброс категорий
+					categoryFilterLinks.forEach(link => {
+						if (link.getAttribute("data-category") === "all") {
+							link.classList.add("active");
+							activeCategory = "all";
+						} else {
+							link.classList.remove("active");
+						}
+					});
+
+					// Применяем фильтрацию
+					filterPortfolio();
+				}
+
+				// Обработчики для ссылок фильтров направлений
+				directionFilterLinks.forEach(link => {
+					link.addEventListener("click", function(e) {
+						e.preventDefault();
+						e.stopPropagation(); // Останавливаем всплытие события
+
+						// Убираем активный класс у всех ссылок направлений
+						directionFilterLinks.forEach(item => item.classList.remove("active"));
+
+						// Добавляем активный класс нажатой ссылке
+						this.classList.add("active");
+
+						// Обновляем активное направление
+						activeDirection = this.getAttribute("data-filter");
+
+						// Применяем фильтрацию (она закроет дропдаун)
+						filterPortfolio();
+					});
+				});
+
+				// Обработчики для ссылок фильтров категорий
+				categoryFilterLinks.forEach(link => {
+					link.addEventListener("click", function(e) {
+						e.preventDefault();
+						e.stopPropagation(); // Останавливаем всплытие события
+
+						// Убираем активный класс у всех ссылок категорий
+						categoryFilterLinks.forEach(item => item.classList.remove("active"));
+
+						// Добавляем активный класс нажатой ссылке
+						this.classList.add("active");
+
+						// Обновляем активную категорию
+						activeCategory = this.getAttribute("data-category");
+
+						// Применяем фильтрацию (она закроет дропдаун)
+						filterPortfolio();
+					});
+				});
+
+				// Обработчик для кнопки сброса фильтров в сообщении
+				if (resetFiltersBtn) {
+					resetFiltersBtn.addEventListener("click", function(e) {
+						e.preventDefault();
+						resetAllFilters();
+
+						// Если на мобильной версии, закрываем дропдаун
+						if (window.innerWidth <= 1220) {
+							closeFiltersDropdown();
+						}
+					});
+				}
+
+				// Инициализация при загрузке страницы
+				function init() {
+					// Устанавливаем начальные активные фильтры
+					const activeDirectionLink = document.querySelector("#direction-filters .filter-link.active");
+					const activeCategoryLink = document.querySelector("#category-filters .filter-link.active");
+
+					if (activeDirectionLink) {
+						activeDirection = activeDirectionLink.getAttribute("data-filter");
+					}
+
+					if (activeCategoryLink) {
+						activeCategory = activeCategoryLink.getAttribute("data-category");
+					}
+
+					// Применяем начальную фильтрацию
+					const visibleItems = filterPortfolio();
+
+					// Скрываем сообщение об отсутствии результатов при загрузке
+					if (visibleItems > 0 && noResultsBlock) {
+						noResultsBlock.style.display = "none";
+					}
+				}
+
+				// Инициализируем
+				init();
+
+				// Функция для переключения дропдауна фильтров
+				function initFiltersDropdown() {
+					const filtersMobileHeader = document.querySelector(".filters-mobile-header");
+					const filtersDropdown = document.querySelector(".filters-dropdown");
+					const filtersToggleIcon = document.querySelector(".filters-toggle-icon");
+
+					if (filtersMobileHeader && filtersDropdown) {
+						filtersMobileHeader.addEventListener("click", function(e) {
+							e.preventDefault();
+							e.stopPropagation(); // Останавливаем всплытие события
+
+							// Переключаем состояние дропдауна
+							const isActive = filtersDropdown.classList.toggle("active");
+
+							// Поворачиваем стрелочку
+							if (filtersToggleIcon) {
+								if (isActive) {
+									filtersToggleIcon.style.transform = "rotate(180deg)";
+								} else {
+									filtersToggleIcon.style.transform = "rotate(0deg)";
+								}
+							}
+						});
+
+						// Закрываем дропдаун при клике вне области
+						document.addEventListener("click", function(e) {
+							// Проверяем, не кликнули ли мы на заголовок фильтров или внутри дропдауна
+							const isClickInsideHeader = filtersMobileHeader.contains(e.target);
+							const isClickInsideDropdown = filtersDropdown.contains(e.target);
+
+							// Если кликнули вне и дропдаун открыт - закрываем
+							if (!isClickInsideHeader && !isClickInsideDropdown && filtersDropdown.classList.contains("active")) {
+								closeFiltersDropdown();
+							}
+						});
+					}
+				}
+
+				// Инициализируем дропдаун фильтров
+				initFiltersDropdown();
+
+				// Обработчики для опций отображения
+				document.querySelectorAll(".display-option.active").forEach(option => {
+					option.addEventListener("click", function(e) {
+						e.preventDefault();
+						e.stopPropagation();
+						// Здесь можно добавить логику переключения отображения
+						console.log("Переключение отображения на плитку");
+					});
+				});
+
+				document.querySelectorAll(".display-option.disabled").forEach(option => {
+					option.addEventListener("click", function(e) {
+						e.preventDefault();
+						e.stopPropagation();
+						// Ничего не делаем - элемент неактивен
+					});
+				});
+
+				// Обработчик изменения размера окна
+				let resizeTimer;
+				window.addEventListener("resize", function() {
+					clearTimeout(resizeTimer);
+					resizeTimer = setTimeout(function() {
+						// При изменении размера окна заново применяем фильтрацию
+						filterPortfolio();
+					}, 250);
+				});
+
+				// Экспортируем функции для глобального доступа
+				window.portfolioFilters = {
+					resetAllFilters,
+					getActiveFilters: () => ({direction: activeDirection, category: activeCategory}),
+					filterPortfolio,
+					closeFiltersDropdown,
+				};
+			});
+		</script>
 
 		<footer class="footer">
 			<div class="container">

@@ -1,113 +1,473 @@
-.portfolio-wrapper-desktop {
+// Стили для заголовка Проекты
+.portfolio-header {
+  padding: 40px 0 20px 0;
+  
   @include tablet {
-    display: none;
+    padding: 30px 0 15px 0;
+  }
+  
+  @include mobile {
+    padding: 20px 0 10px 0;
   }
 }
 
-.portfolio-wrapper-tablet {
-  display: none;
+.portfolio-title {
+  font-family: var(--font-main);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+  color: #000;
+  margin: 0;
+  
   @include tablet {
-    display: flex;
+    font-size: 36px;
+  }
+  
+  @include mobile {
+    font-size: 28px;
+  }
+}
+
+// Стили для фильтрации
+.portfolio-filters {
+  margin-bottom: 40px;
+  padding: 20px 0;
+  
+  @include tablet {
+    margin-bottom: 30px;
+  }
+  
+  @include mobile {
+    margin-bottom: 20px;
+  }
+}
+
+.portfolio-filters-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px; // Добавим отступ между группами фильтров
+  
+  @include tablet {
     flex-direction: column;
-    row-gap: 8px;
+    gap: 15px;
+  }
+}
+
+.filter-group {
+  flex: 1;
+  min-width: 0; // Для правильной работы flex
+  
+  @include tablet {
+    width: 100%;
+  }
+}
+
+.filter-label {
+  font-family: var(--font-main);
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+  
+  @include tablet {
+    margin-bottom: 8px;
+  }
+}
+
+// Горизонтальная линия под заголовками
+.filter-line {
+  height: 1px;
+  background-color: #e0e0e0;
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+// Стили для блока отображения
+.filter-display {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.display-option {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease;
+  
+  &.active {
+    color: #000; // Насыщенный черный цвет для активного элемента
+    font-weight: 600; // Делаем текст жирнее
+    cursor: default;
+    background-color: transparent; // Убираем фон
+    border: none; // Убираем рамку
+    
+    &:hover {
+      color: #000; // Сохраняем черный цвет при наведении
+      background-color: transparent; // Без фона при наведении
+    }
+  }
+  
+  &.disabled {
+    color: #999; // Серый цвет для неактивного состояния
+    cursor: not-allowed;
+    background-color: transparent;
+    
+    &:hover {
+      color: #999;
+      background-color: transparent;
+    }
+  }
+  
+  &:not(.disabled):not(.active):hover {
+    // background-color: #f5f5f5;
+    cursor: pointer;
+  }
+}
+
+.filter-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.filter-link {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 14px;
+  padding: 8px 16px;
+  border: none;
+  background: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+  width: 100%;
+  white-space: normal;
+  line-height: 1.4;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #999; // Серый цвет для неактивных элементов (как у disabled)
+  
+  // Стиль при наведении для неактивных элементов
+  &:hover {
+    // background: #f5f5f5;
+    color: #000; // При наведении меняем на черный
+    cursor: pointer;
+  }
+  
+  // Активный элемент
+  &.active {
+    color: #000; // Насыщенный черный цвет для активного элемента
+    font-weight: 600; // Делаем текст жирнее
+    background: transparent; // Убираем фон
+    border: none; // Убираем рамку
+    
+    // При наведении на активный элемент оставляем черный цвет
+    &:hover {
+      color: #000;
+      background: transparent; // Без фона при наведении
+      cursor: default; // Курсор по умолчанию, так как элемент уже активен
+    }
+  }
+  
+  @include tablet {
+    padding: 6px 12px;
+    font-size: 13px;
+    min-height: 40px;
+  }
+}
+
+// Для группы "Отображение" можно оставить как есть
+.filter-group:first-child .filter-links {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.portfolio-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); // 3 колонки на десктопе
+  gap: 8px;
+  margin-bottom: 160px;
+  
+  // Планшет: 2 колонки
+  @include tablet {
+    grid-template-columns: repeat(2, 1fr);
     margin-bottom: 100px;
   }
+  
+  // Мобильный: 1 колонка
   @include mobile {
+    grid-template-columns: 1fr;
     margin-bottom: 22px;
   }
 }
 
-.portfolio-main-row-long {
+// Стили для карточек
+.portfolio-item {
+  background-color: grey;
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 8px;
-
-  &:last-child {
-    margin-bottom: 160px;
-  }
-
-  &__item {
-    width: 389px;
-    height: 362px;
-    background-color: grey;
-    display: flex;
-    align-items: flex-end;
-    padding-bottom: 21px;
-    padding-left: 28px;
-    
-    background-position: center center; /* x y */
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  &__item-text {
-    font-family: var(--font-main);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 125%;
-    color: #fff;
+  align-items: flex-end;
+  padding-bottom: 21px;
+  padding-left: 28px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  // Высота для всех карточек
+  height: 362px;
+  
+  // Для элементов без ссылок (div)
+  cursor: default;
+  
+  // Для ссылок
+  &[href] {
+    cursor: pointer;
+    text-decoration: none;
   }
 }
 
-.portfolio-main-row-short {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 8px;
-
-
-  &__item {
-    width: 588px;
-    height: 470px;
-    background-color: grey;
-    display: flex;
-    align-items: flex-end;
-    padding-bottom: 21px;
-    padding-left: 28px;
-
-    background-position: center center; /* x y */
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  &__item-text {
-    font-family: var(--font-main);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 125%;
-    color: #fff;
-  }
+.portfolio-item-text {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  color: #fff;
 }
 
-.portfolio-main-row-tablet {
-  display: flex;
-  justify-content: center;
-  // margin-bottom: 8px;
-  gap: 8px;
-
+// Стили для сообщения об отсутствии результатов
+.portfolio-no-results {
+  display: none; // Скрыто по умолчанию
+  text-align: center;
+  padding: 60px 20px;
+  margin: 40px 0;
+  border-top: 1px solid #e0e0e0;
+  
+  @include tablet {
+    padding: 40px 20px;
+    margin: 30px 0;
+  }
+  
   @include mobile {
-    flex-direction: column;
-    align-items: center;
+    padding: 30px 15px;
+    margin: 20px 0;
   }
+}
 
-  &__item {
-    width: 382px;
-    height: 362px;
-    background-color: grey;
-    display: flex;
-    align-items: flex-end;
-    padding-bottom: 21px;
-    padding-left: 28px;
-    
-    background-position: center center; /* x y */
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+.no-results-content {
+  max-width: 400px;
+  margin: 0 auto;
+}
 
-  &__item-text {
-    font-family: var(--font-main);
-    font-weight: 400;
+.no-results-title {
+  font-family: var(--font-main);
+  font-weight: 600;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 12px;
+  
+  @include tablet {
     font-size: 20px;
-    line-height: 125%;
-    color: #fff;
+  }
+  
+  @include mobile {
+    font-size: 18px;
+  }
+}
+
+.no-results-text {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 24px;
+  line-height: 1.5;
+  
+  @include tablet {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  
+  @include mobile {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+}
+
+.no-results-reset {
+  font-family: var(--font-main);
+  font-weight: 500;
+  font-size: 16px;
+  color: #333;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background: #e0e0e0;
+    border-color: #ccc;
+  }
+  
+  &:active {
+    transform: translateY(1px);
+  }
+  
+  @include tablet {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+  
+  @include mobile {
+    font-size: 14px;
+    padding: 8px 16px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1220px) {
+  .portfolio-filters {
+    .container {
+      position: relative;
+    }
+    
+    // Скрываем стандартный заголовок в дропдауне
+    .filter-label {
+      font-size: 14px;
+      margin-bottom: 6px;
+    }
+    
+    // Заголовок для мобильной версии
+    .filters-mobile-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      padding: 16px 0;
+      border-bottom: 1px solid #e0e0e0;
+      margin-bottom: 0;
+      
+      &:hover {
+        .filters-mobile-title {
+          color: #000;
+        }
+      }
+    }
+    
+    .filters-mobile-title {
+      font-family: var(--font-main);
+      font-weight: 600;
+      font-size: 18px;
+      color: #333;
+      transition: color 0.3s ease;
+    }
+    
+    .filter-line-mobile {
+      display: none;
+    }
+    
+    .filters-toggle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 24px;
+      height: 24px;
+      transition: transform 0.3s ease;
+    }
+    
+    .filters-toggle-icon {
+      color: #333;
+      transition: transform 0.3s ease;
+    }
+    
+    // Скрываем дропдаун по умолчанию
+    .portfolio-filters-wrapper.filters-dropdown {
+      display: none;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px 0;
+      border-bottom: 1px solid #e0e0e0;
+      margin-bottom: 30px;
+      
+      &.active {
+        display: flex;
+        animation: fadeIn 0.3s ease;
+      }
+    }
+    
+    // Изменяем отступы для фильтров в дропдауне
+    .filter-group {
+      width: 100%;
+      margin-bottom: 0;
+    }
+    
+    // Уменьшаем размер текста в фильтрах
+    .filter-link {
+      font-size: 14px;
+      padding: 8px 12px;
+      min-height: 40px;
+    }
+    
+    .filter-display {
+      margin-top: 4px;
+    }
+    
+    .display-option {
+      font-size: 13px;
+      padding: 5px 10px;
+    }
+  }
+  
+  // Скрываем горизонтальные линии в заголовках фильтров внутри дропдауна
+  .filter-line {
+    margin-bottom: 10px;
+  }
+}
+
+// Для экранов больше 1220px скрываем мобильный заголовок
+@media (min-width: 1221px) {
+  .filters-mobile-header {
+    display: none !important;
+  }
+  
+  .portfolio-filters-wrapper.filters-dropdown {
+    display: flex !important;
+  }
+}
+
+// Для планшетов и мобильных
+@include tablet {
+  .portfolio-filters {
+    .filters-mobile-title {
+      font-size: 16px;
+    }
+    
+    .portfolio-filters-wrapper.filters-dropdown {
+      padding: 15px 0;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+// Анимация появления дропдауна
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
