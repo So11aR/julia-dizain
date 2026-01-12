@@ -1,0 +1,97 @@
+.russkij-shef-item-1 {
+  max-width: 1160px;
+  height: 695px;
+
+  background-image: url("./../../img/russkij-shef/pic-01.png");
+  @include mediaBg() {
+    background-image: url("./../../img/russkij-shef/pic-01@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 372px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 304px !important;
+    height: 231px;
+  }
+}
+
+.russkij-shef-item-2 {
+  max-width: 1160px;
+  height: 540px;
+
+  background-image: url("./../../img/russkij-shef/pic-02.png");
+  @include mediaBg() {
+    background-image: url("./../../img/russkij-shef/pic-02@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 372px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 304px !important;
+    height: 231px;
+  }
+
+}
+
+.russkij-shef-item-3 {
+  max-width: 1160px;
+  height: 695px;
+
+  background-image: url("./../../img/russkij-shef/pic-03.png");
+  @include mediaBg() {
+    background-image: url("./../../img/russkij-shef/pic-03@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 372px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 304px !important;
+    height: 231px;
+  }
+}
+
+.russkij-shef-item-4 {
+  width: 588px !important;
+  height: 747px;
+  background-image: url("./../../img/baza-otdyha/pic-04.png");
+  @include mediaBg() {
+    background-image: url("./../../img/baza-otdyha/pic-04@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}

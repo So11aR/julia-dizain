@@ -1,0 +1,36 @@
+.baza-otdyha-row-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 34px;
+
+  @include tablet {
+    align-items: center;
+  }
+}
+
+.shef-video {
+  width: 588px !important;
+  height: 747px;
+
+  @include tablet {
+    width: 100% !important;
+  }
+}
+
+.baza-otdyha-main-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+
+  @include tablet {
+  
+    column-gap: 13px;
+  }
+}
+
+.baza-otdyha-bg-image-handler {
+  width: 100%;
+  background-position: center center; /* x y */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
