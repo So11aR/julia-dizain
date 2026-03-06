@@ -1,0 +1,172 @@
+.studia-rutube-item-1 {
+  max-width: 1160px;
+  height: 652px;
+
+  background-image: url("./../../img/studia-rutube/pic-01.png");
+  @include mediaBg() {
+    background-image: url("./../../img/studia-rutube/pic-01@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 372px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 304px !important;
+    height: 231px;
+  }
+
+}
+
+.studia-rutube-item-2 {
+  max-width: 575px;
+  height: 695px;
+
+  background-image: url("./../../img/studia-rutube/pic-02.png");
+  @include mediaBg() {
+    background-image: url("./../../img/studia-rutube/pic-02@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+}
+
+.studia-rutube-item-3 {
+  max-width: 575px;
+  height: 695px;
+
+  background-image: url("./../../img/studia-rutube/pic-03.png");
+  @include mediaBg() {
+    background-image: url("./../../img/studia-rutube/pic-03@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+
+}
+
+.studia-rutube-item-4 {
+  max-width: 1160px;
+  height: 640px;
+
+  background-image: url("./../../img/studia-rutube/pic-04.png");
+  @include mediaBg() {
+    background-image: url("./../../img/studia-rutube/pic-04@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 372px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 304px !important;
+    height: 231px;
+  }
+
+}
+
+.studia-rutube-item-5 {
+  max-width: 575px !important;
+  height: 695px;
+
+  background-image: url("./../../img/studia-rutube/pic-05.png");
+  @include mediaBg() {
+    background-image: url("./../../img/studia-rutube/pic-05@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+
+}
+
+.studia-rutube-item-6 {
+  max-width: 575px !important;
+  height: 695px;
+
+  background-image: url("./../../img/studia-rutube/pic-06.png");
+  @include mediaBg() {
+    background-image: url("./../../img/studia-rutube/pic-06@2x.png");
+  }
+
+  @include tablet {
+    width: 378px !important;
+    height: 511px;
+  }
+  @include mobile {
+    width: 184px !important;
+    height: 249px;
+  }
+  @include mobile-serpuxov-xs {
+    width: 150px !important;
+    height: 186px;
+  }
+
+}
+
+.studia-rutube-item-7 {
+  max-width: 1160px;
+  height: 642px;
+
+  background-image: url("./../../img/studia-rutube/pic-07.png");
+  @include mediaBg() {
+    background-image: url("./../../img/studia-rutube/pic-07@2x.png");
+  }
+
+  @include tablet {
+    width: 768px !important;
+    height: 569px;
+  }
+
+  @include mobile {
+    width: 372px !important;
+    height: 285px;
+  }
+
+  @include mobile-serpuxov-xs {
+    width: 304px !important;
+    height: 231px;
+  }
+
+}
