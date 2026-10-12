@@ -1,0 +1,41 @@
+.klaster-tablet-row {
+  display: none !important;
+
+  @include tablet {
+    display: flex !important;
+  }
+}
+
+.hibin-row-wrapper {
+  max-width: 1160px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 34px;
+
+  @include tablet {
+    align-items: center;
+  }
+}
+
+.hibin-main-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+
+  @include tablet {
+    column-gap: 6px;
+    margin-bottom: 6px;
+  }
+
+  @include mobile {
+    column-gap: 4px;
+    margin-bottom: 4px;
+  }
+}
+
+.klaster-bg-image-handler {
+  width: 100%;
+  background-position: center center; /* x y */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
